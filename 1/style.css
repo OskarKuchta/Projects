@@ -1,20 +1,35 @@
+:root {
+    --bg-color: hsl(30, 38%, 92%);
+    --Montserrat: "wght" 500;
+    --Fraunces: "wght" 700;
+    --pricebutton: hsl(158, 36%, 37%);
+    --header: hsl(212, 21%, 14%);
+    --paragraph: hsl(228, 12%, 48%);
+    --bg-text: hsl(0, 0%, 100%);
+}
+
+
+
 html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 10px;
+    font-size: 14px;
 }
 body {
-    background-color: antiquewhite;
+    background-color: var(--bg-color);
+}
+
+.main_image {
+    width: 100px;
+    height: 100px;
 }
 
 
-/* The designs were created to the following widths:
-
+/*
 - Mobile: 375px
 - Desktop: 1440px
 
-## Colors
 
 ### Primary
 
