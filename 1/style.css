@@ -14,15 +14,26 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 14px;
+    font-size: 8px;
 }
 body {
     background-color: var(--bg-color);
 }
-
+.container {
+    display: flex;
+    width: 300px;
+    margin: 15% 25%;
+}
 .main_image {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 200px;
+    border-radius: 10px 0 0 10px;
+}
+.main_text {
+    background-color: var(--bg-text);
+    border-radius: 0 10px 10px 0;
+    width: 150px;
+    max-height: 200px;
 }
 
 
