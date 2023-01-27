@@ -20,7 +20,12 @@ body {
     background-color: var(--bg-color);
     height: 100vh;
 }
-
+.card {
+    display: flex;
+    width: 500px;
+    height: 350px;
+    justify-content: center;
+}
 
 /*
 - Mobile: 375px
