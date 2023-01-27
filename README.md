@@ -1,1 +1,1 @@
-Projects designed with frontendmentor.io challenges
+Projects designed with frontendmentor.io challenges :)
