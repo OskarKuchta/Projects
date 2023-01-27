@@ -1,7 +1,5 @@
 :root {
     --bg-color: hsl(30, 38%, 92%);
-    --Montserrat: "wght" 500;
-    --Fraunces: "wght" 700;
     --pricebutton: hsl(158, 36%, 37%);
     --header: hsl(212, 21%, 14%);
     --paragraph: hsl(228, 12%, 48%);
@@ -14,7 +12,7 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 8px;
+    font-size: 14px;
 }
 body {
     background-color: var(--bg-color);
@@ -25,20 +23,37 @@ body {
 }
 .card {
     display: flex;
-    width: 500px;
-    height: 350px;
-    border-radius: 10px;
+    width: 580px;
+    height: 370px;
 }
 .main-image {
-    width: 250px;
-    height: 350px;
+    width: 290px;
+    height: 370px;
+    border-radius: 15px 0 0 15px;
 }
 .main-text {
-    width: 250px;
-    height: 350px;
+    padding: 0 20px 0 30px;
+    width: 290px;
+    height: 370px;
     background-color: var(--bg-text);
+    border-radius: 0 15px 15px 0;
 }
-
+.paragraph {
+    color: var(--paragraph);
+    font-family: "Montserrat", "sans-serif";
+}
+.first {
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-size: 0.7rem;
+    padding-top: 20px;
+}
+.header {
+    margin: 0;
+    font-size: 2.4rem;
+    color: var(--header);
+    font-family: "Fraunces","serif";
+}
 /*
 - Mobile: 375px
 - Desktop: 1440px
