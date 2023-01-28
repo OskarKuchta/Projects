@@ -24,17 +24,17 @@ body {
 .card {
     display: flex;
     width: 580px;
-    height: 400px;
+    height: 420px;
 }
 .main-image {
     width: 290px;
-    height: 400px;
+    height: 420px;
     border-radius: 15px 0 0 15px;
 }
 .main-text {
     padding: 0 20px 0 30px;
     width: 290px;
-    height: 400px;
+    height: 420px;
     background-color: var(--bg-text);
     border-radius: 0 15px 15px 0;
 }
@@ -57,7 +57,7 @@ body {
 .price {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 70px;
+    grid-template-rows: 80px;
 }
 .price-new {
     font-family: "Fraunces","serif";
@@ -67,34 +67,27 @@ body {
 }
 .price-old {
     padding-top: 25px;
+    text-decoration: line-through;
 }
-
+.card-button {
+    display: flex;
+    justify-content: center;
+    margin: 5px 10px 0 0;
+}
+.add-button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border: 1px transparent;
+    border-radius: 5px;
+    color: var(--bg-text);
+    background-color: var(--pricebutton);
+    padding: 12px 0;
+}
+.button-icon {
+    margin-right: 10px;
+}
 /*
 - Mobile: 375px
 - Desktop: 1440px
 
-
-### Primary
-
-- Dark cyan: hsl(158, 36%, 37%)
-- Cream: hsl(30, 38%, 92%)
-
-### Neutral
-
-- Very dark blue: hsl(212, 21%, 14%)
-- Dark grayish blue: hsl(228, 12%, 48%)
-- White: hsl(0, 0%, 100%)
-
-## Typography
-
-### Body Copy
-
-- Font size (paragraph): 14px
-
-### Font
-
-- Family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
-- Weights: 500, 700
-
-- Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
-- Weights: 700
