@@ -88,6 +88,24 @@ body {
 .button-icon {
     margin-right: 10px;
 }
+@media(max-width: 376px) {
+    .card {
+        display: flex;
+        flex-direction: column;
+    }
+    .main-image {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
 /*
 - Mobile: 375px
 - Desktop: 1440px
