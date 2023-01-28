@@ -54,6 +54,12 @@ body {
     color: var(--header);
     font-family: "Fraunces","serif";
 }
+.price {
+    display: flex;
+}
+.price-new {
+    font-size: 1.5rem;
+}
 /*
 - Mobile: 375px
 - Desktop: 1440px
