@@ -40,7 +40,7 @@ body {
 }
 .paragraph {
     color: var(--paragraph);
-    font-family: c;
+    font-family: "Montserrat" , "sans-serif";
 }
 .first {
     font-weight: 700;
@@ -60,13 +60,13 @@ body {
     grid-template-rows: 70px;
 }
 .price-new {
-    font-family: "Fraunces","serif";;
+    font-family: "Fraunces","serif";
     font-weight: 700;
     color: var(--pricebutton);
-    font-size: 1.7rem;
+    font-size: 2rem;
 }
 .price-old {
-    
+    padding-top: 25px;
 }
 
 /*
