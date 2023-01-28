@@ -83,6 +83,7 @@ body {
     color: var(--bg-text);
     background-color: var(--pricebutton);
     padding: 12px 0;
+    font-weight: 700;
 }
 .button-icon {
     margin-right: 10px;
