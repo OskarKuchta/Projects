@@ -99,15 +99,18 @@ body {
         margin-bottom: 200px;
     }
     .main-image {
-        display: none;
+       display: none;
+    }
+    .card-photos {
+        max-height: 250px;
     }
     .mobile-image {
-        max-width: 100%;
+        min-height: 250px;
+        max-width: 340px;
         display: inline;
         border-radius: 15px 15px 0 0;
     }
     .main-text {
-        max-width: calc(100%-40px);
         border-radius: 0 0 15px 15px;
     }
     .card-button {
