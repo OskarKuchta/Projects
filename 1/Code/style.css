@@ -5,9 +5,6 @@
     --paragraph: hsl(228, 12%, 48%);
     --bg-text: hsl(0, 0%, 100%);
 }
-
-
-
 html {
     margin: 0;
     padding: 0;
@@ -115,20 +112,7 @@ body {
     }
     .card-button {
         margin-bottom: 20px;
-    }
-
-    
+    }  
 }
 
-
-
-
-
-
-
-
-
-/*
-- Mobile: 375px
-- Desktop: 1440px
 
