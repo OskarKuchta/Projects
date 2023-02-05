@@ -1,3 +1,20 @@
+$mobile: 375px;
+$text-color: hsl(220, 15%, 55%);
+$header-color: hsl(218, 44%, 22%);
+$container-bg: hsl(0, 0%, 100%);
+$bg-color: hsl(212, 45%, 89%);
+$font: "Outfit", "sans-serif";
+$wHeader: 700;
+$wText: 400;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html p{
+    font-size: 15px;
+}
 body {
-    background-color: black;
+    background-color: $bg-color;
 }
