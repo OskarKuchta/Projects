@@ -1,0 +1,17 @@
+$mobile: 375px;
+$header: hsl(300, 43%, 22%);
+$verified: hsl(333, 80%, 67%);
+$header-desc: hsl(303, 10%, 53%);
+$bg-color: hsl(300, 24%, 96%);
+$box-text: hsl(0, 0%, 100%);
+$w1: 400;
+$w2: 500;
+$w3: 700;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 15px;
+}
