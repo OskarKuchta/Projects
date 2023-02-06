@@ -71,9 +71,17 @@ body {
 .box {
     width: 33%;
     background-color: $header;
-    height: 300px;
+    height: 200px;
     margin-right: 50px;
     border-radius: 10px;
+    padding: 20px;
+}
+.box-image {
+    width: 50px;
+    border-radius: 25px;
+}
+.box-header, .box-desc {
+    color: $box-text;
 }
 @media(max-width: $mobile){
     body {

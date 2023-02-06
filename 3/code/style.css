@@ -73,9 +73,19 @@ body {
 .box {
   width: 33%;
   background-color: hsl(300deg, 43%, 22%);
-  height: 300px;
+  height: 200px;
   margin-right: 50px;
   border-radius: 10px;
+  padding: 20px;
+}
+
+.box-image {
+  width: 50px;
+  border-radius: 25px;
+}
+
+.box-header, .box-desc {
+  color: hsl(0deg, 0%, 100%);
 }
 
 @media (max-width: 376px) {
