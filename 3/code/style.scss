@@ -1,6 +1,6 @@
 $mobile: 376px;
 $header: hsl(300, 43%, 22%);
-$verified: hsl(333, 80%, 67%);
+$verified: hsla(334, 80%, 43%,);
 $header-desc: hsl(303, 10%, 53%);
 $star: hsl(300, 24%, 96%);
 $box-text: hsl(0, 0%, 100%);
@@ -69,12 +69,12 @@ body {
 }
 
 .box {
-    width: 33%;
+    width: 100%;
     background-color: $header;
     height: 200px;
-    margin-right: 50px;
+    margin-right: 30px;
     border-radius: 10px;
-    padding: 20px;
+    padding: 30px 40px 20px 40px;
 }
 .box-image {
     width: 50px;
@@ -82,6 +82,28 @@ body {
 }
 .box-header, .box-desc {
     color: $box-text;
+}
+.box-top {
+    display: flex;
+}
+.box__top--name {
+    font-weight: $w2;
+    font-size: 1.2rem;
+    margin-top: 7px;
+    margin-left: 20px;
+}
+.box-verify {
+    margin-top: 2px;
+    color: $verified;
+}
+.box-desc {
+    margin-top: 20px;
+}
+.second-box {
+    margin-top: 20px;
+}
+.third-box {
+    margin-top: 40px;
 }
 @media(max-width: $mobile){
     body {
