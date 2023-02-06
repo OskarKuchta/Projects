@@ -9,24 +9,69 @@ html {
 }
 
 body {
+  font-family: "League Spartan", sans-serif;
   height: 100vh;
   background-image: url(/3/image/bg-pattern-top-desktop.svg);
 }
 
-.top {
+.top, .bottom {
   width: 1000px;
   margin: 100px auto;
   display: flex;
-  align-content: center;
 }
 
 .top-left, .top-right {
-  flex: 50;
+  flex: 50%;
 }
 
 .top-right {
   margin-top: 20px;
-  margin-left: 300px;
+  margin-left: 200px;
+}
+
+.header-main {
+  font-weight: 700;
+  font-size: 3.5rem;
+  color: hsl(300deg, 43%, 22%);
+}
+
+.header-text {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-top: 20px;
+  color: hsl(303deg, 10%, 53%);
+}
+
+.star {
+  display: flex;
+  width: 370px;
+  margin-bottom: 15px;
+  background-color: hsl(300deg, 24%, 96%);
+  padding: 15px 0 15px 15px;
+  border-radius: 10px;
+}
+
+.stars {
+  margin-right: 5px;
+}
+
+.star-text {
+  color: hsl(300deg, 43%, 22%);
+  margin-left: 15px;
+  font-weight: 700;
+  margin-top: 1px;
+}
+
+.first-star {
+  margin-left: -100px;
+}
+
+.second-star {
+  margin-left: -70px;
+}
+
+.third-star {
+  margin-left: -40px;
 }
 
 @media (max-width: 376px) {

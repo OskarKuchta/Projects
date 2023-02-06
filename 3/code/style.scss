@@ -2,7 +2,7 @@ $mobile: 376px;
 $header: hsl(300, 43%, 22%);
 $verified: hsl(333, 80%, 67%);
 $header-desc: hsl(303, 10%, 53%);
-$box-header: hsl(300, 24%, 96%);
+$star: hsl(300, 24%, 96%);
 $box-text: hsl(0, 0%, 100%);
 $w1: 400;
 $w2: 500;
@@ -17,25 +17,59 @@ html {
     font-size: 15px;
 }
 body {
+    font-family: $font;
     height: 100vh;
     background-image: url(/3/image/bg-pattern-top-desktop.svg);
 }
-.top {
+.top, .bottom {
     width: 1000px;
     margin: 100px auto;
     display: flex;
-    align-content: center;
 }
 .top-left, .top-right {
-    flex: 50;
+    flex: 50%;
 }
 .top-right {
     margin-top: 20px;
-    margin-left: 300px;
+    margin-left: 200px;
 }
-
-
-
+.header-main {
+    font-weight: $w3;
+    font-size: 3.5rem;
+    color: $header;
+}
+.header-text {
+    font-size: 1.1rem;
+    font-weight: $w2;
+    margin-top: 20px;
+    color: $header-desc;
+}
+.star {
+    display: flex;
+    width: 370px;
+    margin-bottom: 15px;
+    background-color: $star;
+    padding: 15px 0 15px 15px;
+    border-radius: 10px;
+}
+.stars {
+    margin-right: 5px;
+}
+.star-text {
+    color: $header;
+    margin-left: 15px;
+    font-weight: $w3;
+    margin-top: 1px;
+}
+.first-star {
+    margin-left: -100px;
+}
+.second-star {
+    margin-left: -70px;
+}
+.third-star {
+    margin-left: -40px;
+}
 
 @media(max-width: $mobile){
     body {
