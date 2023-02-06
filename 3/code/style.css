@@ -15,7 +15,7 @@ body {
 }
 
 .top, .bottom {
-  width: 1000px;
+  width: 1200px;
   margin: 100px auto;
   display: flex;
 }
@@ -26,17 +26,17 @@ body {
 
 .top-right {
   margin-top: 20px;
-  margin-left: 200px;
+  margin-left: 300px;
 }
 
 .header-main {
   font-weight: 700;
-  font-size: 3.5rem;
+  font-size: 4.5rem;
   color: hsl(300deg, 43%, 22%);
 }
 
 .header-text {
-  font-size: 1.1rem;
+  font-size: 1.25rem;
   font-weight: 500;
   margin-top: 20px;
   color: hsl(303deg, 10%, 53%);
@@ -67,11 +67,15 @@ body {
 }
 
 .second-star {
-  margin-left: -70px;
+  margin-left: -50px;
 }
 
-.third-star {
-  margin-left: -40px;
+.box {
+  width: 33%;
+  background-color: hsl(300deg, 43%, 22%);
+  height: 300px;
+  margin-right: 50px;
+  border-radius: 10px;
 }
 
 @media (max-width: 376px) {
