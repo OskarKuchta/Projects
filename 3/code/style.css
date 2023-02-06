@@ -6,4 +6,31 @@
 
 html {
   font-size: 15px;
+}
+
+body {
+  height: 100vh;
+  background-image: url(/3/image/bg-pattern-top-desktop.svg);
+}
+
+.top {
+  width: 1000px;
+  margin: 100px auto;
+  display: flex;
+  align-content: center;
+}
+
+.top-left, .top-right {
+  flex: 50;
+}
+
+.top-right {
+  margin-top: 20px;
+  margin-left: 300px;
+}
+
+@media (max-width: 376px) {
+  body {
+    background-image: url(/3/image/bg-pattern-top-mobile.svg);
+  }
 }/*# sourceMappingURL=style.css.map */
