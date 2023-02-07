@@ -139,12 +139,16 @@ body {
   .header-text {
     text-align: center;
     font-size: 1.1rem;
+    margin-bottom: 20px;
   }
   .first-star, .second-star, .third-star {
     display: flex;
     flex-direction: column;
+    text-align: center;
     margin: 0;
     max-width: 100%;
+    padding-right: 20px;
+    margin-top: 10px;
   }
   .bottom {
     max-width: 90%;
