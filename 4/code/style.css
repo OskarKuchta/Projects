@@ -3,8 +3,8 @@
     --card-background: hsl(244, 38%, 16%);
     --card-image: hsl(307, 64%, 27%);
     --header: hsl(0, 0%, 100%);
-    --main-paragraph: hsla(0, 0%, 100%, 0.75);
-    --stats-header: hsla(0, 0%, 100%, 0.6);
+    --stats-header: hsla(0, 0%, 100%, 0.75);
+    --main-paragraph: hsla(0, 0%, 100%, 0.6);
     --font1: "Inter", sans-serif;
     --font2: "Lexend Deca", sans-serif;
     --w1: 400;
@@ -38,9 +38,18 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 50px;
-    text-align: center;
+    padding: 50px 120px 50px 60px;
     color: var(--header);
+}
+.card-header {
+    font-size: 2.2rem;
+    font-family: var(--font1);
+    font-weight: var(--w2);
+    margin-bottom: 30px;
+}
+.card-paragraph {
+    color:var(--stats-header);
+    font-family: var(--font1);
 }
 .word-color {
     color: var(--card-image);
@@ -64,9 +73,8 @@ body {
     right: 0;
     left: 0;
     background: var(--card-image);
-    filter: opacity(20%);
+    filter: opacity(70%);
   }
-
 @media (max-width: 376px) {
 
 }
