@@ -120,17 +120,25 @@ body {
 @media (max-width: 376px) {
   body {
     background-image: url(/3/image/bg-pattern-top-mobile.svg);
-    width: 375px;
+    width: 376px;
   }
   .top {
-    margin: 100px auto;
+    margin-bottom: 30px;
     max-width: 90%;
     display: flex;
     flex-direction: column;
   }
   .top-right {
     margin: auto;
-    max-width: 90%;
+    max-width: 100%;
+  }
+  .header-main {
+    text-align: center;
+    font-size: 3rem;
+  }
+  .header-text {
+    text-align: center;
+    font-size: 1.1rem;
   }
   .first-star, .second-star, .third-star {
     display: flex;
@@ -142,6 +150,7 @@ body {
     max-width: 90%;
     display: flex;
     flex-direction: column;
+    margin-top: 20px;
   }
   .third-box, .second-box {
     margin-top: 10px;
