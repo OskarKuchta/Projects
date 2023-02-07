@@ -1,7 +1,7 @@
 :root {
     --body-backround: hsl(233, 47%, 7%);
     --card-background: hsl(244, 38%, 16%);
-    --card-word: hsl(277, 64%, 61%);
+    --card-image: hsl(307, 64%, 27%);
     --header: hsl(0, 0%, 100%);
     --main-paragraph: hsla(0, 0%, 100%, 0.75);
     --stats-header: hsla(0, 0%, 100%, 0.6);
@@ -33,10 +33,29 @@ body {
     display: flex;
     border-radius: 10px;
 }
-.card-image {
+.word-color {
+    color: var(--card-image);
+}
+.right-card {
+    background-color: var(--card-image);
     height: 350px;
     border-radius: 0 10px 10px 0;
+    position: relative;
 }
+.card-image {
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+}
+.right-card:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: var(--card-image);
+    filter: opacity(20%);
+  }
 
 @media (max-width: 376px) {
 
