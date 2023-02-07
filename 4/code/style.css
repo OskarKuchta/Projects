@@ -3,7 +3,7 @@
     --card-background: hsl(244, 38%, 16%);
     --card-image: hsl(307, 64%, 27%);
     --header: hsl(0, 0%, 100%);
-    --stats-header: hsla(0, 0%, 100%, 0.75);
+    --stats-name: hsla(0, 0%, 100%, 0.75);
     --main-paragraph: hsla(0, 0%, 100%, 0.6);
     --font1: "Inter", sans-serif;
     --font2: "Lexend Deca", sans-serif;
@@ -48,8 +48,30 @@ body {
     margin-bottom: 30px;
 }
 .card-paragraph {
-    color:var(--stats-header);
+    color:var(--main-paragraph);
     font-family: var(--font1);
+    margin-bottom: 50px;
+}
+.card-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.card-results {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.result-number {
+    font-size: 1.5rem;
+    font-family: var(--font1);
+    font-weight: var(--w2);
+    margin-bottom: 5px;
+}
+.result-name {
+    font-family: var(--font2);
+    font-size: 0.7rem;
+  color: var(--main-paragraph);
 }
 .word-color {
     color: var(--card-image);
