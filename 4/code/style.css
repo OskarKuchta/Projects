@@ -1,3 +1,16 @@
+:root {
+    --body-backround: hsl(233, 47%, 7%);
+    --card-background: hsl(244, 38%, 16%);
+    --card-word: hsl(277, 64%, 61%);
+    --header: hsl(0, 0%, 100%);
+    --main-paragraph: hsla(0, 0%, 100%, 0.75);
+    --stats-header: hsla(0, 0%, 100%, 0.6);
+    --font1: "Inter", sans-serif;
+    --font2: "Lexend Deca", sans-serif;
+    --w1: 400;
+    --w2: 700;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -10,40 +23,5 @@ html p{
 
 
 @media (max-width: 376px) {
-    
+
 }
-
-
-
-
-/* - Mobile: 375px
-- Desktop: 1440px
-
-## Colors
-
-### Primary
-
-- Very dark blue (main background): hsl(233, 47%, 7%)
-- Dark desaturated blue (card background): hsl(244, 38%, 16%)
-- Soft violet (accent): hsl(277, 64%, 61%)
-
-### Neutral
-
-- White (main heading, stats): hsl(0, 0%, 100%)
-- Slightly transparent white (main paragraph): hsla(0, 0%, 100%, 0.75)
-- Slightly transparent white (stat headings): hsla(0, 0%, 100%, 0.6)
-
-## Typography
-
-### Body Copy
-
-- Font size: 15px
-
-### Font
-
-- Family: [Inter](https://fonts.google.com/specimen/Inter)
-- Weights: 400, 700
-
-- Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca) 
-- Weights: 400 */
- 
