@@ -28,21 +28,31 @@ body {
 }
 .card {
     background-color: var(--card-background);
-    width: 1000px;
-    height: 350px;
+    width: 1100px;
+    height: 400px;
     display: flex;
     border-radius: 10px;
+}
+.left-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    text-align: center;
+    color: var(--header);
 }
 .word-color {
     color: var(--card-image);
 }
 .right-card {
     background-color: var(--card-image);
-    height: 350px;
+    height: 400px;
     border-radius: 0 10px 10px 0;
     position: relative;
 }
 .card-image {
+    width: 550px;
     height: 100%;
     border-radius: 0 10px 10px 0;
 }
