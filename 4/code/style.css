@@ -19,8 +19,24 @@
 html p{
     font-size: 15px;
 }
-
-
+body {
+    height: 100vh;
+    background-color: var(--body-backround);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    background-color: var(--card-background);
+    width: 1000px;
+    height: 350px;
+    display: flex;
+    border-radius: 10px;
+}
+.card-image {
+    height: 350px;
+    border-radius: 0 10px 10px 0;
+}
 
 @media (max-width: 376px) {
 
