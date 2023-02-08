@@ -94,36 +94,46 @@ body {
 }
 @media (max-width: 376px) {
     body {
-        margin-top: 100px;
+       margin-top: 150px;
     }
     .card {
-        width: 90%;
+        width: 84%;
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
+        border-radius: 0 0 10px 10px;
     }
     .left-card {
-        padding: 20px 30px;
+        margin-top: 20px;
+        max-width: 80%;
+        padding: 0;
         display: flex;
         justify-content: center;
     }
     .card-header {
         text-align: center;
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
     .card-paragraph {
         text-align: center;
         font-size: 1rem;
     }
     .right-card {
-        height: 300px;
+        max-height: 300px;
         max-width: 100%;
         border-radius: 10px 10px 0 0;
+    }
+    .card-results {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
     }
     .mobile-image {
         display: block;
         height: 250px;
         max-width: 100%;
+        border-radius: 10px 10px 0 0;
+
     }
     .desktop-image {
         display: none;
