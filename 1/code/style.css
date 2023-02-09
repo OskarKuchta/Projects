@@ -34,8 +34,17 @@ body {
 .card-left, .card-right {
     flex: 50%;
 }
+.card__image--desktop {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+}
+.card__image--mobile {
+    display: none;
+}
 .card-right {
-    padding: 4% 7% 0 4%;
+    max-width: 100%;
+    padding: 4% 4% 0 4%;
 }
 .right__top {
     font-size: 0.4rem;
@@ -47,20 +56,35 @@ body {
 }
 .right__header {
     color: var(--Header);
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-family: var(--Fraunces);
     font-weight: 700;
     margin-bottom: 0.5rem;
 }
 .right__desc {
     color: var(--Paragraph);
-    font-size: 0.3rem;
+    font-size: 0.5rem;
+    margin-bottom: 0.5rem;
 }
-.card__image--desktop {
+.right-price {
+    display: flex;
+    align-items: center;
+}
+.new-price {
+    color: var(--Pricebtn);
+    font-weight: 700;
+    font-family: var(--Fraunces);
+    font-size: 0.8rem;
+}
+.old-price {
+    color: var(--Paragraph);
+    margin-left: 10%;
+    font-size: 0.4rem;
+    text-decoration: line-through 0.03rem;
+}
+.btn {
     width: 100%;
-    height: 100%;
-    border-radius: 10px 0 0 10px;
 }
-.card__image--mobile {
-    display: none;
+@media(max-width: 769px) {
+
 }
