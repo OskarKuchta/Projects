@@ -1,0 +1,29 @@
+:root {
+   --Fraunces: "Fraunces", serif; /* 500, 700 */
+   --Montesrerat: "Montserrat", sans-serif; /* 700 */
+   --Pricebtn: hsl(158, 36%, 37%);
+   --Body: hsl(30, 38%, 92%);
+   --Header: hsl(212, 21%, 14%);
+   --Paragraph: hsl(228, 12%, 48%);
+   --Btntext: hsl(0, 0%, 100%);
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 14px;
+    background-color: var(--Body);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    display: flex;
+}
+.card__image--mobile {
+    display: none;
+}
