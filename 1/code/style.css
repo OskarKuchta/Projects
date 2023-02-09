@@ -101,7 +101,50 @@ body {
     padding-right: 5%;
 }
 @media(min-width: 800px) {
-    
+    .right__top {
+        font-size: 0.5rem;
+    }
+    .right__header {
+        font-size: 1.15rem;
+    }
+    .right__desc {
+        font-size: 0.49rem;
+    }
+    .new-price {
+        font-size: 1rem;
+    }
+    .old-price {
+        font-size: 0.5rem;
+    }
+    .btn-cart {
+        font-size: 0.5rem;
+    }
+    .btn-img {
+        width: 0.8rem;
+    }
+}
+@media(min-width: 1024px) {
+    .right__top {
+        font-size: 0.6rem;
+    }
+    .right__header {
+        font-size: 1.25rem;
+    }
+    .right__desc {
+        font-size: 0.55rem;
+    }
+    .new-price {
+        font-size: 1.1rem;
+    }
+    .old-price {
+        font-size: 0.6rem;
+    }
+    .btn-cart {
+        font-size: 0.6rem;
+    }
+    .btn-img {
+        width: 0.9rem;
+    }
 }
 @media(max-width: 600px) {
 
