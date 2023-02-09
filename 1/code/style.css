@@ -5,7 +5,7 @@
    --Body: hsl(30, 38%, 92%);
    --Header: hsl(212, 21%, 14%);
    --Paragraph: hsl(228, 12%, 48%);
-   --Btntext: hsl(0, 0%, 100%);
+   --bgtext: hsl(0, 0%, 100%);
 
 }
 
@@ -15,14 +15,51 @@
     box-sizing: border-box;
 }
 body {
-    font-size: 14px;
+    font-size: 10px;
     background-color: var(--Body);
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+
 }
 .card {
     display: flex;
+    justify-content: center;
+    width: 45vw;
+    height: 55vh;
+    background-color: var(--bgtext);
+    border-radius: 10px;
+}
+.card-left, .card-right {
+    flex: 50%;
+}
+.card-right {
+    padding: 4% 7% 0 4%;
+}
+.right__top {
+    font-size: 0.4rem;
+    color: var(--Paragraph);
+    font-family: var(--Montesrerat);
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 0.5rem;
+}
+.right__header {
+    color: var(--Header);
+    font-size: 1rem;
+    font-family: var(--Fraunces);
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.right__desc {
+    color: var(--Paragraph);
+    font-size: 0.3rem;
+}
+.card__image--desktop {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
 }
 .card__image--mobile {
     display: none;
