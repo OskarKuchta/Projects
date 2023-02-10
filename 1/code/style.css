@@ -41,7 +41,7 @@ body, html  {
     display: none;
 }
 .card-right {
-    padding: 20px;
+    padding: 15px 25px;
 }
 .right-top {
     color: var(--Paragraph);
@@ -53,9 +53,29 @@ body, html  {
     color: var(--Header);
     font-weight: 700;
     font-family: var(--Fraunces);
-    font-size: 3rem;
+    font-size: 3.2rem;
     line-height: 90%;
     margin-bottom: 15px;
+}
+.right-desc {
+    color: var(--Paragraph);
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.right-price {
+    display: flex;
+    align-items: center;
+}
+.price-new {
+    font-family: var(--Fraunces);
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: var(--Pricebtn);
+}
+.price-old {
+    color: var(--Paragraph);
+    text-decoration: line-through 0.01rem;
+    margin-left: 15px;
 }
 @media (min-width: 700px) {
     body {
