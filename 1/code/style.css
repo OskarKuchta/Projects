@@ -88,12 +88,14 @@ body, html  {
     background-color: var(--Pricebtn);
     border-radius: 5px;
 }
+.btn-img {
+    padding-right: 10px;
+}
 .btn-text {
     font-size: 1.2rem;
     color: var(--bgtext);
     font-weight: 700;
     font-family: var(--Montesrerat);
-    margin-left: 10px;
 }
 @media (min-width: 700px) {
     body {
@@ -107,7 +109,7 @@ body, html  {
         padding: 30px 30px 10px 30px;
     }
     .right-top, .right-header, .right-desc, .right-price {
-        margin-bottom: 30px;
+        margin-bottom: 25px;
     }
     .right-desc {
         font-size: 1.4rem;
@@ -117,10 +119,14 @@ body, html  {
     }
     .card-image--desktop {
         width: 290px;
+        height: 390px;
         display: block;
         border-radius: 10px 0 0 10px ;
     }
     .card-image--mobile {
         display: none;
+    }
+    .btn-cart {
+        padding: 10px;
     }
 }
