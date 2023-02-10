@@ -14,14 +14,15 @@
     margin: 0;
     box-sizing: border-box;
 }
-body,html  {
+body, html  {
     background-color: var(--Body);
     display: flex;
     justify-content: center;
     align-items: start;
     height: 100%;
     width: 100%;
-
+    font-family: var(--Montesrerat);
+    font-size: 10px;
 }
 .card {
     display: flex;
@@ -41,6 +42,20 @@ body,html  {
 }
 .card-right {
     padding: 20px;
+}
+.right-top {
+    color: var(--Paragraph);
+    font-weight: 500;
+    letter-spacing: 5px;
+    margin-bottom: 5px;
+}
+.right-header {
+    color: var(--Header);
+    font-weight: 700;
+    font-family: var(--Fraunces);
+    font-size: 3rem;
+    line-height: 90%;
+    margin-bottom: 15px;
 }
 @media (min-width: 700px) {
     body {
