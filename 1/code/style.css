@@ -60,11 +60,12 @@ body, html  {
 .right-desc {
     color: var(--Paragraph);
     font-weight: 500;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 .right-price {
     display: flex;
     align-items: center;
+    margin-bottom: 10px;
 }
 .price-new {
     font-family: var(--Fraunces);
@@ -77,14 +78,42 @@ body, html  {
     text-decoration: line-through 0.01rem;
     margin-left: 15px;
 }
+.btn-cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border: transparent;
+    padding : 8px;
+    background-color: var(--Pricebtn);
+    border-radius: 5px;
+}
+.btn-text {
+    font-size: 1.2rem;
+    color: var(--bgtext);
+    font-weight: 700;
+    font-family: var(--Montesrerat);
+    margin-left: 10px;
+}
 @media (min-width: 700px) {
     body {
         align-items: center;
     }
     .card {
-   
         flex-direction: row;
         max-width: 580px;
+    }
+    .card-right {
+        padding: 30px 30px 10px 30px;
+    }
+    .right-top, .right-header, .right-desc, .right-price {
+        margin-bottom: 30px;
+    }
+    .right-desc {
+        font-size: 1.4rem;
+    }
+    .price-new {
+        font-size: 3rem;
     }
     .card-image--desktop {
         width: 290px;
