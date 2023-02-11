@@ -43,4 +43,10 @@ body {
 .card-paragraph {
     color: $text;
     font-weight: $text-bold;
+    margin-bottom: 20px;
+}
+@media(min-width: 600px) {
+    body {
+        justify-content: center;
+    }
 }
