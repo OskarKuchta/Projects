@@ -1,0 +1,15 @@
+$text:hsl(212, 45%, 89%);
+$bg-color: hsl(220, 15%, 55%);
+$card-bg: hsl(0, 0%, 100%);
+$header: hsl(218, 44%, 22%);
+$font: "Outfit", sans-serif;
+$text-bold: 400;
+$header-bold: 700;
+
+body {
+    height: 100vh;
+    color: $header;
+    font-family: $font;
+    font-size: 15px;
+}
+
