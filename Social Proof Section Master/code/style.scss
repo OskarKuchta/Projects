@@ -1,0 +1,15 @@
+// Colors
+$header : hsl(300, 43%, 22%);
+$verify: hsl(333, 80%, 67%);
+$top-text: hsl(303, 10%, 53%);
+$bg: hsl(0, 0%, 100%);
+// Font weights
+$w1: 400;
+$w2: 500;
+$w3: 700;
+// Font style
+$font: "League Spartan", sans-serif;
+
+html {
+    background-color: var($header);
+}
