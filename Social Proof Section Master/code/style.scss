@@ -10,6 +10,13 @@ $w3: 700;
 // Font style
 $font: "League Spartan", sans-serif;
 
-html {
-    background-color: var($header);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100%;
+    background-color: $bg;
 }
