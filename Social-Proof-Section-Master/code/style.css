@@ -39,7 +39,9 @@ body {
 }
 
 .rate {
-  max-width: 500px;
+  margin: auto;
+  min-width: 300px;
+  max-width: 60vw;
   background-color: hsl(300deg, 24%, 96%);
   border-radius: 10px;
   margin-bottom: 10px;
@@ -58,7 +60,8 @@ body {
 }
 
 .box {
-  max-width: 500px;
+  min-width: 300px;
+  max-width: 60vw;
   margin-bottom: 10px;
   background-color: hsl(300deg, 43%, 22%);
   color: hsl(300deg, 24%, 96%);
@@ -97,8 +100,35 @@ body {
   font-weight: 400;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 1000px) {
   body {
     background-image: url(/Social-Proof-Section-Master/images/bg-pattern-top-desktop.svg);
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  .top-page {
+    display: flex;
+    max-width: 80vw;
+    margin: 100px;
+    text-align: start;
+  }
+  .header {
+    font-size: 3.5rem;
+    line-height: 2.5rem;
+  }
+  .rate {
+    display: flex;
+    justify-content: center;
+    max-width: 400px;
+    margin-left: 100px;
+  }
+  .box {
+    margin: 0;
+    margin-left: 20px;
+  }
+  .boxes {
+    display: flex;
+    max-width: 80vw;
   }
 }/*# sourceMappingURL=style.css.map */
