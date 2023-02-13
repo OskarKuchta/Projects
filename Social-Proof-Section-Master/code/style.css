@@ -41,7 +41,7 @@ body {
 .rate {
   margin: auto;
   min-width: 300px;
-  max-width: 60vw;
+  max-width: 70vw;
   background-color: hsl(300deg, 24%, 96%);
   border-radius: 10px;
   margin-bottom: 10px;
@@ -61,7 +61,7 @@ body {
 
 .box {
   min-width: 300px;
-  max-width: 60vw;
+  max-width: 70vw;
   margin-bottom: 10px;
   background-color: hsl(300deg, 43%, 22%);
   color: hsl(300deg, 24%, 96%);
@@ -109,26 +109,48 @@ body {
   }
   .top-page {
     display: flex;
-    max-width: 80vw;
-    margin: 100px;
+    width: 900px;
+    margin-top: 100px;
     text-align: start;
   }
   .header {
     font-size: 3.5rem;
     line-height: 2.5rem;
+    max-width: 400px;
   }
   .rate {
     display: flex;
-    justify-content: center;
     max-width: 400px;
     margin-left: 100px;
+    padding: 8px 0 8px 30px;
+  }
+  .star {
+    width: 15px;
+    height: 15px;
+    margin: 7px 3px 0 3px;
+  }
+  .rate-text {
+    margin-left: 20px;
   }
   .box {
     margin: 0;
-    margin-left: 20px;
+    margin-right: 20px;
   }
   .boxes {
+    margin-top: 50px;
     display: flex;
-    max-width: 80vw;
+    max-width: 950px;
+    height: 300px;
+  }
+  .first-box {
+    height: 80%;
+  }
+  .second-box {
+    height: 80%;
+    margin-top: 20px;
+  }
+  .third-box {
+    height: 80%;
+    margin-top: 40px;
   }
 }/*# sourceMappingURL=style.css.map */
