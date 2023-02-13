@@ -107,21 +107,33 @@ body {
     }
     .top-page {
         display: flex;
-        width: 900px;
+        justify-content: center;
+        max-width: 80vw;
         margin-top: 100px;
         text-align: start;
     }
     .header {
         font-size: 3.5rem;
         line-height: 2.5rem;
-        max-width: 400px;
+        max-width: 80%;
+        margin-bottom: 30px;
+    }
+    .header-desc {
+        max-width: 80%;
+    }
+    .rate-section {
+        min-width: 50%;
     }
     .rate {
         display: flex;
-      
-        max-width: 400px;
-        margin-left: 100px;
-        padding: 8px 0 8px 30px;
+        max-width: 70%;
+        padding: 8px 10px 8px 30px;
+    }
+    .first-rate {
+        margin-left: 30px;
+    }
+    .third-rate {
+        margin-right: 30px;
     }
     .star {
         width: 15px;
@@ -138,7 +150,8 @@ body {
     .boxes {
         margin-top: 50px;
         display: flex;
-        max-width: 950px;
+        justify-content: center;
+        max-width: 80vw;
         height: 300px;
     }
     .first-box {
