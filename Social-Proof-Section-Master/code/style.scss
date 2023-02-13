@@ -46,6 +46,7 @@ body {
     font-size: 1.05rem;
 }
 .rate {
+    max-width: 500px;
     background-color: $rate-bg;
     border-radius: 10px;
     margin-bottom: 10px;
@@ -62,9 +63,37 @@ body {
     margin-top: 25px;
 }
 .box {
+    max-width: 500px;
     margin-bottom: 10px;
     background-color: $header;
     color: $rate-bg;
+    border-radius: 10px;
+    padding: 30px 25px;
+    font-size: 1.11rem;
+    text-align: start;
+}
+.box-top {
+    display: flex;
+    margin-bottom: 20px;
+}
+.box-img {
+    width: 50px;
+    border-radius: 25px;
+}
+.box-name {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0 0 20px;
+}
+.box-header {
+    font-weight: $w3;
+}
+.box-verify {
+    padding-top: 5px;
+    color: $verify;
+}
+.box-text {
+    font-weight: $w1;
 }
 @media(min-width: 700px) {
     body {

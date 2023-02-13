@@ -39,6 +39,7 @@ body {
 }
 
 .rate {
+  max-width: 500px;
   background-color: hsl(300deg, 24%, 96%);
   border-radius: 10px;
   margin-bottom: 10px;
@@ -57,9 +58,43 @@ body {
 }
 
 .box {
+  max-width: 500px;
   margin-bottom: 10px;
   background-color: hsl(300deg, 43%, 22%);
   color: hsl(300deg, 24%, 96%);
+  border-radius: 10px;
+  padding: 30px 25px;
+  font-size: 1.11rem;
+  text-align: start;
+}
+
+.box-top {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.box-img {
+  width: 50px;
+  border-radius: 25px;
+}
+
+.box-name {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0 0 20px;
+}
+
+.box-header {
+  font-weight: 700;
+}
+
+.box-verify {
+  padding-top: 5px;
+  color: hsl(333deg, 80%, 67%);
+}
+
+.box-text {
+  font-weight: 400;
 }
 
 @media (min-width: 700px) {
