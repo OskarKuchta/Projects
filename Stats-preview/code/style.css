@@ -16,7 +16,7 @@ body {
   height: 100%;
   width: 100%;
   color: hsl(0deg, 0%, 100%);
-  font: "Inter", sans-serif;
+  font-family: "Lexend Deca", "sans-serif";
 }
 
 .card {
@@ -56,7 +56,7 @@ body {
 }
 
 .header-description {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   line-height: 25px;
   font-weight: 400;
   color: hsla(0deg, 0%, 100%, 0.75);
@@ -66,7 +66,7 @@ body {
 .stats {
   display: flex;
   flex-direction: column;
-  font-family: "Lexend Deca", sans-serif;
+  font-family: "Lexend Deca", "sans-serif";
 }
 .stats .stats-number {
   font-weight: 700;
@@ -80,10 +80,15 @@ body {
   margin-bottom: 20px;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 850px) {
+  body {
+    margin-top: 9rem;
+  }
   .card {
     flex-direction: row-reverse;
-    width: 70vw;
+    width: 80%;
+    height: 60%;
+    margin: 0;
   }
   .card-img {
     display: none;
@@ -91,5 +96,27 @@ body {
   .card-img-desktop {
     display: block;
     max-width: 50%;
+    filter: sepia(40%) saturate(670%) hue-rotate(250deg) opacity(0.4);
+    border-radius: 0 10px 10px 0;
+  }
+  .card-stats {
+    text-align: start;
+    margin-top: 30px;
+  }
+  .card-header {
+    font-size: 2.4rem;
+  }
+  .header-description {
+    margin-bottom: 80px;
+  }
+  .stats-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+@media (min-width: 1180px) {
+  .card-stats {
+    padding: 30px 120px 0 70px;
   }
 }/*# sourceMappingURL=style.css.map */
