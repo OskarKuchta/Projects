@@ -28,10 +28,13 @@ body {
 .card {
     display: flex;
     flex-direction: column;
-    max-width: 90vw;
+    max-width: 85vw;
     margin: 50px auto;
     background-color: $stats-bg;
     border-radius: 10px;
+}
+.card-img-desktop {
+    display: none;
 }
 .card-img {
     max-width: 100%;
@@ -62,8 +65,29 @@ body {
 .stats {
     display: flex;
     flex-direction: column;
+    font-family: $font2;
+    .stats-number {
+        font-weight: 700;
+        font-size: 1.7rem;
+        color: $headstats;
+        margin-bottom: 3px;
+    }
+    .stats-desc {
+        font-size: 0.8rem;
+        color: $stats-name;
+        margin-bottom: 20px;
+    }
 }
-
-@media(min-width: 600px) {
-
+@media(min-width: 700px) {
+    .card {
+        flex-direction: row-reverse;
+        width: 70vw;
+    }
+    .card-img {
+        display: none;
+    }
+    .card-img-desktop {
+        display: block;
+        max-width: 50%;
+    }
 }

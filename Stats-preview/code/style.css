@@ -22,10 +22,14 @@ body {
 .card {
   display: flex;
   flex-direction: column;
-  max-width: 90vw;
+  max-width: 85vw;
   margin: 50px auto;
   background-color: hsl(244deg, 38%, 16%);
   border-radius: 10px;
+}
+
+.card-img-desktop {
+  display: none;
 }
 
 .card-img {
@@ -62,4 +66,30 @@ body {
 .stats {
   display: flex;
   flex-direction: column;
+  font-family: "Lexend Deca", sans-serif;
+}
+.stats .stats-number {
+  font-weight: 700;
+  font-size: 1.7rem;
+  color: hsl(0deg, 0%, 100%);
+  margin-bottom: 3px;
+}
+.stats .stats-desc {
+  font-size: 0.8rem;
+  color: hsla(0deg, 0%, 100%, 0.6);
+  margin-bottom: 20px;
+}
+
+@media (min-width: 700px) {
+  .card {
+    flex-direction: row-reverse;
+    width: 70vw;
+  }
+  .card-img {
+    display: none;
+  }
+  .card-img-desktop {
+    display: block;
+    max-width: 50%;
+  }
 }/*# sourceMappingURL=style.css.map */
