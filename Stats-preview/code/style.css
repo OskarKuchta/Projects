@@ -1,1 +1,33 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: hsl(233deg, 47%, 7%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  max-width: 90vw;
+  margin: 50px auto;
+  background-color: hsl(244deg, 38%, 16%);
+}
+
+.card-img {
+  max-width: 100%;
+  max-height: 100%;
+  background-image: url(/Stats-preview/image/image-header-mobile.jpg);
+  filter: sepia(40%) saturate(670%) hue-rotate(250deg) opacity(0.4);
+}/*# sourceMappingURL=style.css.map */
