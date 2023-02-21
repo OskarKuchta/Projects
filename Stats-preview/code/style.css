@@ -5,7 +5,7 @@
 }
 
 html {
-  font-size: 10px;
+  font-size: 15px;
 }
 
 body {
@@ -37,10 +37,29 @@ body {
 }
 
 .card-stats {
-  padding: 20px 30px;
+  padding: 20px 40px;
   text-align: center;
 }
 
 .header-word {
   color: hsl(277deg, 64%, 61%);
+}
+
+.card-header {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.header-description {
+  font-size: 1.2rem;
+  line-height: 25px;
+  font-weight: 400;
+  color: hsla(0deg, 0%, 100%, 0.75);
+  margin-bottom: 30px;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
 }/*# sourceMappingURL=style.css.map */

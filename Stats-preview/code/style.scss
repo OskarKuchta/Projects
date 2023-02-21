@@ -13,7 +13,7 @@ $font2: "Lexend Deca", sans-serif;
     box-sizing: border-box;
 }
 html {
-    font-size: 10px;
+    font-size: 15px;
 }
 body {
     background-color: $main-bg;
@@ -41,12 +41,29 @@ body {
     border-radius: 10px 10px 0 0;
 }
 .card-stats {
-    padding: 20px 30px;
+    padding: 20px 40px;
     text-align: center;
 }
 .header-word {
     color: $word;
 }
+.card-header {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+.header-description {
+    font-size: 1.2rem;
+    line-height: 25px;
+    font-weight: 400;
+    color: $main-paragraph;
+    margin-bottom: 30px;
+}
+.stats {
+    display: flex;
+    flex-direction: column;
+}
+
 @media(min-width: 600px) {
 
 }
