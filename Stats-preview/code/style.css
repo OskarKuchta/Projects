@@ -15,6 +15,8 @@ body {
   align-items: center;
   height: 100%;
   width: 100%;
+  color: hsl(0deg, 0%, 100%);
+  font: "Inter", sans-serif;
 }
 
 .card {
@@ -23,6 +25,7 @@ body {
   max-width: 90vw;
   margin: 50px auto;
   background-color: hsl(244deg, 38%, 16%);
+  border-radius: 10px;
 }
 
 .card-img {
@@ -30,4 +33,14 @@ body {
   max-height: 100%;
   background-image: url(/Stats-preview/image/image-header-mobile.jpg);
   filter: sepia(40%) saturate(670%) hue-rotate(250deg) opacity(0.4);
+  border-radius: 10px 10px 0 0;
+}
+
+.card-stats {
+  padding: 20px 30px;
+  text-align: center;
+}
+
+.header-word {
+  color: hsl(277deg, 64%, 61%);
 }/*# sourceMappingURL=style.css.map */
