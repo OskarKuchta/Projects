@@ -95,7 +95,7 @@ body {
 }
 .submit-img {
     width: 50%;
-    margin: 20px 0 30px 0;
+    margin: 20px 0 30px 20%;
 }
 .your-select {
     background-color: var(--optionsbg);
@@ -103,6 +103,9 @@ body {
     border-radius: 10px;
     color: var(--submitandhover);
     margin-bottom: 25px;
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
 
 }
 .submit-thanks {
@@ -110,6 +113,7 @@ body {
     font-weight: var(--fontw2);
     margin-bottom: 15px;
     font-size: 1.7rem;
+    text-align: center;
 }
 .submit-description {
     color: var(--paragraph);
