@@ -7,7 +7,21 @@ let fourthBtn = document.getElementById("fourthchoice");
 let fifthBtn = document.getElementById("fifthchoice");
 let submitBtn = document.getElementById("submitBtn");
 let text = document.getElementById("text");
-
+checkFirst = () => {
+    firstBtn.checked = true;
+  }
+  checkSecond = () => {
+    secondBtn.checked = true;
+  }
+  checkThird = () => {
+    thirdBtn.checked = true;
+  }
+  checkFourth = () => {
+    fourthBtn.checked = true;
+  }
+  checkFifth = () => {
+    fifthBtn.checked = true;
+  }
 submitChoice = () => {
     if(firstBtn.checked){
         text.innerHTML= "You selected 1 out of 5";
