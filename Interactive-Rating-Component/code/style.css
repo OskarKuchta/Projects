@@ -5,9 +5,10 @@
     --submitandhover: hsl(25, 97%, 53%);
     ---header: hsl(0, 0%, 100%);
     --paragraph: hsl(217, 12%, 63%);
-    --optionsbg:  hsl(216, 12%, 54%);
+    --optionsbg:  hsla(216, 12%, 54%,0.2);
     --cardbg: hsl(213, 19%, 18%);
     --bodybg: hsl(216, 12%, 8%);
+    --optionshover: hsl(218, 18%, 64%);
 }
 
 * {
@@ -17,6 +18,7 @@
 }
 html {
     font-size: 15px;
+    font-family: var(--font);
 }
 body {
     width: 100%;
@@ -36,9 +38,47 @@ body {
 .star {
     padding: 10px;
     border-radius: 20px;
-    background-color: hsl(214, 19%, 21%);
+    background-color: var(--optionsbg);
     width: 35px;
     margin-bottom: 12px;
+}
+.start-header {
+    color: var(---header);
+    font-size: 1.7rem;
+    font-weight: var(--fontw1);
+    margin-bottom: 12px;
+}
+.header-description {
+    color: var(--paragraph);
+    font-size: 1.06rem;
+    margin-bottom: 20px;
+}
+.options {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+}
+.option {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: transparent;
+    background-color: var(--optionsbg);
+    color: var(--paragraph);
+    cursor: pointer;
+}
+.option:checked {
+    background-color: var(--optionshover);
+    color: var(---header);
+}
+.start-submit {
+    width: 98%;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: var(--submitandhover);
+    border: transparent;
+    color: var(---header);
+    cursor: pointer;
 }
 .submit-card {
     display: none;
@@ -49,6 +89,6 @@ body {
     }
     .start-card {
         margin-top: 0;
-        max-width: 450px;
+        max-width: 350px;
     }
 }
