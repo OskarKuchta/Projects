@@ -27,13 +27,13 @@ body {
     display: flex;
     justify-content: center;
 }
-.start-card {
+.start-card, .submit-card {
     margin-top: 100px;
     max-width: 85vw;
     height: auto;
     background-color: var(--cardbg);
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .star {
     padding: 10px;
@@ -67,9 +67,13 @@ body {
     color: var(--paragraph);
     cursor: pointer;
 }
-.option:checked {
+.option:focus {
     background-color: var(--optionshover);
     color: var(---header);
+}
+.option:hover {
+    color: var(---header);
+    background-color: var(--submitandhover);
 }
 .start-submit {
     width: 98%;
@@ -80,14 +84,24 @@ body {
     color: var(---header);
     cursor: pointer;
 }
+.start-submit:hover {
+    background-color: var(---header);
+    color: var(--submitandhover);
+}
 .submit-card {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.submit-img {
+    width: 50%;
+    margin-bottom: 20px;
 }
 @media(min-width: 500px) {
     body {
         align-items: center;
     }
-    .start-card {
+    .start-card, .submit-card {
         margin-top: 0;
         max-width: 350px;
     }
