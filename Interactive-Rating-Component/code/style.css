@@ -95,7 +95,29 @@ body {
 }
 .submit-img {
     width: 50%;
+    margin: 20px 0 30px 0;
+}
+.your-select {
+    background-color: var(--optionsbg);
+    padding: 3px 15px;
+    border-radius: 10px;
+    color: var(--submitandhover);
+    margin-bottom: 25px;
+
+}
+.submit-thanks {
+    color: var(---header);
+    font-weight: var(--fontw2);
+    margin-bottom: 15px;
+    font-size: 1.7rem;
+}
+.submit-description {
+    color: var(--paragraph);
+    text-align: center;
     margin-bottom: 20px;
+}
+.submit-card {
+    display: none;
 }
 @media(min-width: 500px) {
     body {
