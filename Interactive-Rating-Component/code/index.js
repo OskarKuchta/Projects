@@ -12,7 +12,21 @@ submitChoice = () => {
     if(firstBtn.checked){
         text.innerHTML= "You selected 1 out of 5";
     }
-    else if(secondBTN)
+    else if(secondBtn.checked){
+        text.innerHTML= "You selected 2 out of 5";
+    }
+    else if(thirdBtn.checked){
+        text.innerHTML= "You selected 3 out of 5";
+    }
+    else if(fourthBtn.checked){
+        text.innerHTML= "You selected 4 out of 5";
+    }
+    else if(fifthBtn.checked){
+        text.innerHTML= "You selected 5 out of 5";
+    }
+    else {
+        text.innerHTML = "Oops, you forgot select any rate";
+    }
     firstPage.style.display = "none";
     secondPage.style.display = "block";
 
