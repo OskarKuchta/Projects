@@ -27,6 +27,18 @@ body {
     display: flex;
     justify-content: center;
 }
+.light-mode, .dark-mode {
+    display: flex;
+    position: absolute;
+    top: 5vh;
+    right: 10vw;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 21px;
+}
+.dark-mode {
+    display: none;
+}
 .start-card, .submit-card {
     margin-top: 100px;
     max-width: 85vw;
@@ -130,5 +142,9 @@ body {
     .start-card, .submit-card {
         margin-top: 0;
         max-width: 350px;
+    }
+    .dark-mode, .light-mode {
+        top: 20vh;
+        right: 40vw;
     }
 }
