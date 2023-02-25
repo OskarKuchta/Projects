@@ -7,6 +7,9 @@ let fourthBtn = document.getElementById("fourthchoice");
 let fifthBtn = document.getElementById("fifthchoice");
 let submitBtn = document.getElementById("submitBtn");
 let text = document.getElementById("text");
+let darkBtn = document.querySelector(".toggle");
+let light = document.querySelector(".light");
+let dark = document.querySelector(".dark");
 checkFirst = () => {
     firstBtn.checked = true;
   }
@@ -45,3 +48,21 @@ submitChoice = () => {
     secondPage.style.display = "block";
 
 }
+lightMode = () => {
+  if(dark.style.display === "none") {
+  light.style.display = "none";
+  dark.style.display = "inline-block";
+  }
+  else {
+  dark.style.display = "none";
+  light.style.display = "inline-block";
+  }
+  document.body.classList.toggle("lightmode");
+  if(dark.style.display === "inline-block") {
+    darkBtn.style.backgroundColor = "hsl(216, 12%, 8%)";
+  }
+  else {
+    darkBtn.style.backgroundColor = "rgba(195, 206, 193, 0.693)";
+  }
+}
+darkBtn.addEventListener("click", lightMode);

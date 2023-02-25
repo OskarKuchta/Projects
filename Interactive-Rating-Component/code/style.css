@@ -9,6 +9,7 @@
     --cardbg: hsl(213, 19%, 18%);
     --bodybg: hsl(216, 12%, 8%);
     --optionshover: hsl(218, 18%, 64%);
+    --lightColor: rgba(195, 206, 193, 0.693);
 }
 
 * {
@@ -26,6 +27,9 @@ body {
     background-color: var(--bodybg);
     display: flex;
     justify-content: center;
+}
+.lightmode {
+    background-color: rgba(195, 206, 193, 0.693);
 }
 .toggle {
     background-color: var(--bodybg);
@@ -146,6 +150,17 @@ body {
     }
     .toggle {
         top: 15vh;
+        right: 30vw;
+    }
+}
+@media(min-width: 800px) {
+    .toggle {
+        top: 15vh;
+        right: 35vw;
+    }
+}
+@media(min-width: 1000px) {
+    .toggle {
         right: 40vw;
     }
 }
