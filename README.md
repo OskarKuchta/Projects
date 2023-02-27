@@ -4,6 +4,20 @@
 <br> <br>
 <img src="/Product-Preview-Card-Component/image/Product-Preview-Card-Component.jpg" width="70%" height="400" alt="Result photo">
 <br> <br>
-<strong>#2 Interactive Rating Component</strong>
-<img src="/Interactive-Rating-Component/images/Result1.png" width="40%" height="400" alt="Result photo">
-<img src="/Interactive-Rating-Component/images/Result2.png" width="70%" height="400" alt="Result  after clicking">
+<strong>#2 QR-Code</strong>
+<br> <br>
+<img src="/QR-Code/images/Result.png" width="30%" height="300" alt="Result photo">
+<br> <br>
+<strong>#3 Social Proof Section Master</strong>
+<br <br>
+<img src="/Social-Proof-Section-Master/images/Result.png" width="70%" height="400" alt="Result photo">
+<br> br>
+<strong>#4 </strong>
+<br> <br>
+<img src="/Stats-preview/image/Result.png" width="70%" height="400" alt="Result photo">
+<br> <br>
+<strong>#5 Interactive Rating Component</strong>
+<br> <br>
+<img src="/Interactive-Rating-Component/images/Result1.png" width="30%" height="300" alt="Result photo">
+<img src="/Interactive-Rating-Component/images/Result2.png" width="50%" height="300" alt="Result  after clicking">
+<br> <br>
