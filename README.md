@@ -5,5 +5,5 @@
 <img src="/Product-Preview-Card-Component/image/Product-Preview-Card-Component.jpg" width="70%" height="400" alt="Result photo">
 <br> <br>
 <strong>#2 Interactive Rating Component</strong>
-<img src="/Interactive-Rating-Component/images/Result1.png" width="70%" height="400" alt="Result photo">
+<img src="/Interactive-Rating-Component/images/Result1.png" width="40%" height="400" alt="Result photo">
 <img src="/Interactive-Rating-Component/images/Result2.png" width="70%" height="400" alt="Result  after clicking">
