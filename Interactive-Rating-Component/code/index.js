@@ -59,10 +59,10 @@ lightMode = () => {
   }
   document.body.classList.toggle("lightmode");
   if(dark.style.display === "inline-block") {
-    darkBtn.style.backgroundColor = "hsl(216, 12%, 8%)";
+    darkBtn.style.backgroundColor = "rgba(195, 206, 193, 0.693)";
   }
   else {
-    darkBtn.style.backgroundColor = "rgba(195, 206, 193, 0.693)";
+    darkBtn.style.backgroundColor = "#3d4847";
   }
 }
 darkBtn.addEventListener("click", lightMode);
