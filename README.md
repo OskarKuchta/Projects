@@ -3,4 +3,4 @@
 #1 Product Preview Card Component <br>
 http://192.168.0.23:5500/Product-Preview-Card-Component/code/index.html
 <br>
-<img src="C:\Users\Oskar Kuchta\Desktop\Product-Preview-Card-Component.png" width="90%" height="400">
+<img src="/Product-Preview-Card-Component/image/Product-Preview-Card-Component.jpg" width="400" height="400">
