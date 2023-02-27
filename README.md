@@ -19,5 +19,5 @@
 <strong>#5 Interactive Rating Component</strong>
 <br> <br>
 <img src="/Interactive-Rating-Component/images/Result1.png" width="30%" height="300" alt="Result photo">
-<img src="/Interactive-Rating-Component/images/Result2.png" width="50%" height="300" alt="Result  after clicking">
-<br> <br>
+<img style="float:right" src="/Interactive-Rating-Component/images/Result2.png" width="50%" height="300" alt="Result  after clicking">
+<br style="clear-both"> <br>
