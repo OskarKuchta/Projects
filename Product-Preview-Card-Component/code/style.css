@@ -87,6 +87,7 @@ body, html  {
     padding : 8px;
     background-color: var(--Pricebtn);
     border-radius: 5px;
+    cursor: pointer;
 }
 .btn-img {
     padding-right: 10px;
