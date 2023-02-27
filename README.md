@@ -2,5 +2,5 @@
 <hr>
 <strong>#1 Product Preview Card Component</strong>
 <br> <br>
-<img src="/Product-Preview-Card-Component/image/Product-Preview-Card-Component.jpg" width="80%" height="400" alt="Result photo">
+<img src="/Product-Preview-Card-Component/image/Product-Preview-Card-Component.jpg" width="70%" height="400" alt="Result photo">
 </body>
