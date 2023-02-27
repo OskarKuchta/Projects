@@ -43,6 +43,7 @@ body {
     padding: 5px;
     border-radius: 21px;
     border: 1px solid black;
+    cursor: pointer;
 }
 .dark {
     display: none;
