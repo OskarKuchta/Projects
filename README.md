@@ -1,4 +1,4 @@
-<body bgcolor="red"
+<body bgcolor="red">
 <strong>Some project from frontendmentor.io to check knowledge HTML/CSS and learn other ways to do page structures :D</strong>
 
 <strong>#1 Product Preview Card Component</strong> <br>
