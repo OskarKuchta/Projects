@@ -6,15 +6,15 @@
 <br> <br>
 <strong>#2 QR-Code</strong>
 <br> <br>
-<img src="/QR-Code/images/Result.png" width="30%" height="300" alt="Result photo">
+<img src="/QR-Code/images/Result.png" width="30%" height="400" alt="Result photo">
 <br> <br>
 <strong>#3 Social Proof Section Master</strong>
 <br <br>
-<img src="/Social-Proof-Section-Master/images/Result.png" width="70%" height="400" alt="Result photo">
-<br> br>
-<strong>#4 </strong>
+<img src="/Social-Proof-Section-Master/images/Result.png" width="70%" height="300" alt="Result photo">
 <br> <br>
-<img src="/Stats-preview/image/Result.png" width="70%" height="400" alt="Result photo">
+<strong>#4 Stats preview</strong>
+<br> <br>
+<img src="/Stats-preview/image/Result.png" width="70%" height="300" alt="Result photo">
 <br> <br>
 <strong>#5 Interactive Rating Component</strong>
 <br> <br>
