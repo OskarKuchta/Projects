@@ -19,7 +19,6 @@
 <strong>#5 Interactive Rating Component</strong>
 <br> <br>
 <img src="/Interactive-Rating-Component/images/Result1.png" width="300" height="300" alt="Result photo">
-<img src="/Interactive-Rating-Component/images/Result2.png" width="600" height="300" alt="Result  after clicking">
 <br> <br>
 <strong>#6 3 Column Preview</strong>
 <br> <br>
