@@ -1,0 +1,31 @@
+:root {
+    --sedan-bg: hsl(31, 77%, 52%);
+    --suv-bg: hsl(184, 100%, 22%);
+    --luxury-bg: hsl(179, 100%, 13%);
+    --paragraph:  hsla(0, 0%, 100%, 0.75);
+    --bg-headings: hsl(0, 0%, 95%);
+    --font1: "Big Shoulders Display", cursive; /* 700 */
+    --font2: "Lexend Deca", sans-serif;
+}
+
+body {
+    font-family: var(--font2);
+}
+.wrapper {
+    display: grid;
+    margin: 50px 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.first-box, .second-box, .third-box {
+    cursor: pointer;
+}
+.first-box {
+    background-color: var(--sedan-bg);
+}
+.second-box {
+    background-color: var(--suv-bg);
+}
+.third-box {
+    background-color: var(--luxury-bg);
+}
