@@ -1,4 +1,5 @@
 <strong>Some project from frontendmentor.io to check knowledge HTML/CSS and learn other ways to do page structures</strong>
+<strong>If you want to see all project live click on this link <a href="https://oska98.ct8.pl/">https://oska98.ct8.pl</a></strong>
 <hr>
 <strong>#1 Product Preview Card Component</strong>
 <br> <br>
