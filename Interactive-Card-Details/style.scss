@@ -6,28 +6,54 @@ $inputText: hsl(279, 63%, 25%);
 $btn: hsl(278, 68%, 11%);
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
+body {
+  font-family: "Space Grotesk", sans-serif;
+}
 header {
-    background-image: url(./images/bg-main-mobile.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 60vw;
-    position: relative;
+  background-image: url(./images/bg-main-mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vw;
+  position: relative;
+}
+.first-photo, .second-photo {
+    width: 70vw;
 }
 .image-back, .image-front {
-    width: 70vw;
-    height: 40vw;
-    position: absolute;
+    width: 100%;
+    height: 100%;
 }
-.image-back {
+.first-photo {
+    position: absolute;
     top: 10vw;
     left: 25vw;
 }
-.image-front {
-    top: 32vw;
-    left: 8vw;
+.second-photo {
+    position: absolute;
+    top: 31vw;
+    left: 7vw;
+}
+.first-circle {
+    position: absolute;
+    width: 7vw;
+    height: 7vw;
+    top: 5vw;
+    right: 58vw;
+    border-radius: 5px solid black;
+    display: inline-block;
+    background-color: $bg;
+    border-radius: 50%;
+}
+.second-circle {
+    position: absolute;
+    top: 7vw;
+    right: 52vw;
+    width: 3vw;
+    height: 3vw;
+    border: 2px solid $bg;
+    border-radius: 50%;
 }
