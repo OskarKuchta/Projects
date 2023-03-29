@@ -9,13 +9,13 @@ html {
 }
 
 body {
-  background-color: hsl(233deg, 47%, 7%);
+  background-color: hsl(233, 47%, 7%);
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
   width: 100%;
-  color: hsl(0deg, 0%, 100%);
+  color: hsl(0, 0%, 100%);
   font-family: "Lexend Deca", "sans-serif";
 }
 
@@ -24,7 +24,7 @@ body {
   flex-direction: column;
   max-width: 85vw;
   margin: 50px auto;
-  background-color: hsl(244deg, 38%, 16%);
+  background-color: hsl(244, 38%, 16%);
   border-radius: 10px;
 }
 
@@ -46,7 +46,7 @@ body {
 }
 
 .header-word {
-  color: hsl(277deg, 64%, 61%);
+  color: hsl(277, 64%, 61%);
 }
 
 .card-header {
@@ -59,7 +59,7 @@ body {
   font-size: 1.1rem;
   line-height: 25px;
   font-weight: 400;
-  color: hsla(0deg, 0%, 100%, 0.75);
+  color: hsla(0, 0%, 100%, 0.75);
   margin-bottom: 30px;
 }
 
@@ -71,12 +71,12 @@ body {
 .stats .stats-number {
   font-weight: 700;
   font-size: 1.7rem;
-  color: hsl(0deg, 0%, 100%);
+  color: hsl(0, 0%, 100%);
   margin-bottom: 3px;
 }
 .stats .stats-desc {
   font-size: 0.8rem;
-  color: hsla(0deg, 0%, 100%, 0.6);
+  color: hsla(0, 0%, 100%, 0.6);
   margin-bottom: 20px;
 }
 
@@ -113,10 +113,5 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-  }
-}
-@media (min-width: 1180px) {
-  .card-stats {
-    padding: 30px 120px 0 70px;
   }
 }/*# sourceMappingURL=style.css.map */

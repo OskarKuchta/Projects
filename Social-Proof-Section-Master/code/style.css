@@ -26,14 +26,14 @@ body {
 }
 
 .header {
-  color: hsl(300deg, 43%, 22%);
+  color: hsl(300, 43%, 22%);
   font-weight: 700;
   font-size: 2.5rem;
   line-height: 2rem;
 }
 
 .header-desc {
-  color: hsl(303deg, 10%, 53%);
+  color: hsl(303, 10%, 53%);
   font-weight: 500;
   font-size: 1.05rem;
 }
@@ -42,7 +42,7 @@ body {
   margin: auto;
   min-width: 300px;
   max-width: 70vw;
-  background-color: hsl(300deg, 24%, 96%);
+  background-color: hsl(300, 24%, 96%);
   border-radius: 10px;
   margin-bottom: 10px;
   padding: 10px 0;
@@ -50,7 +50,7 @@ body {
 
 .rate-text {
   margin-top: 8px;
-  color: hsl(300deg, 43%, 22%);
+  color: hsl(300, 43%, 22%);
   font-weight: 700;
   font-size: 1.1rem;
 }
@@ -63,8 +63,8 @@ body {
   min-width: 300px;
   max-width: 70vw;
   margin-bottom: 10px;
-  background-color: hsl(300deg, 43%, 22%);
-  color: hsl(300deg, 24%, 96%);
+  background-color: hsl(300, 43%, 22%);
+  color: hsl(300, 24%, 96%);
   border-radius: 10px;
   padding: 30px 25px;
   font-size: 1.11rem;
@@ -93,7 +93,7 @@ body {
 
 .box-verify {
   padding-top: 5px;
-  color: hsl(333deg, 80%, 67%);
+  color: hsl(333, 80%, 67%);
 }
 
 .box-text {
