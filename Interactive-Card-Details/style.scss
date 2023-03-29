@@ -1,3 +1,33 @@
-body {
-    background-color: darkblue;
+$active-input: hsl(249, 99%, 64%);
+$error: hsl(0, 100%, 66%);
+$bg: hsl(0, 0%, 100%);
+$cardText: hsl(270, 3%, 87%);
+$inputText: hsl(279, 63%, 25%);
+$btn: hsl(278, 68%, 11%);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(./images/bg-main-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vw;
+    position: relative;
+}
+.image-back, .image-front {
+    width: 70vw;
+    height: 40vw;
+    position: absolute;
+}
+.image-back {
+    top: 10vw;
+    left: 25vw;
+}
+.image-front {
+    top: 32vw;
+    left: 8vw;
 }

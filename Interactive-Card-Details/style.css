@@ -1,3 +1,29 @@
-body {
-  background-color: darkblue;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url(./images/bg-main-mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vw;
+  position: relative;
+}
+
+.image-back, .image-front {
+  width: 70vw;
+  height: 40vw;
+  position: absolute;
+}
+
+.image-back {
+  top: 10vw;
+  left: 25vw;
+}
+
+.image-front {
+  top: 32vw;
+  left: 8vw;
 }/*# sourceMappingURL=style.css.map */
