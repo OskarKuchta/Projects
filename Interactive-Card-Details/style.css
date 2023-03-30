@@ -16,12 +16,14 @@ header {
   position: relative;
 }
 
-.first-photo, .second-photo {
+.first-photo,
+.second-photo {
   width: 70vw;
   color: hsl(270, 3%, 87%);
 }
 
-.image-back, .image-front {
+.image-back,
+.image-front {
   width: 100%;
   height: 100%;
 }
@@ -67,7 +69,8 @@ header {
   letter-spacing: 0.7vw;
 }
 
-.card-owner, .card-expdate {
+.card-owner,
+.card-expdate {
   position: absolute;
   top: 30vw;
   left: 5vw;
@@ -87,4 +90,52 @@ header {
   font-size: clamp(0.6rem, 2.8vw, 2rem);
   letter-spacing: 0.3vw;
   font-weight: 600;
+}
+
+.user-data {
+  width: 85vw;
+  margin: 15vw auto 0 auto;
+}
+
+.number-name {
+  width: 100%;
+  height: 7.5vw;
+  border-radius: 5px;
+  margin-top: 1vw;
+  border: 1px solid rgba(157, 25, 175, 0.2274509804);
+  margin-bottom: 3vw;
+}
+
+.number-name::-moz-placeholder {
+  font-size: clamp(0.6rem, 2.8vw, 3rem);
+  padding: 20px;
+  color: rgba(157, 25, 175, 0.5725490196);
+  font-weight: 600;
+}
+
+.number-name::placeholder {
+  font-size: clamp(0.6rem, 2.8vw, 3rem);
+  padding: 20px;
+  color: rgba(157, 25, 175, 0.5725490196);
+  font-weight: 600;
+}
+
+.label-desc {
+  color: hsl(279, 63%, 25%);
+  font-weight: 600;
+  font-size: clamp(0.6rem, 2.8vw, 3rem);
+  letter-spacing: 0.2vw;
+  text-transform: uppercase;
+}
+
+.exp-date-cvc {
+  display: flex;
+}
+
+.exp-date {
+  flex: 55%;
+}
+
+.cvc {
+  flex: 45%;
 }/*# sourceMappingURL=style.css.map */

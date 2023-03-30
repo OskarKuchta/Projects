@@ -34,7 +34,34 @@
         </div>
       </div>
     </header>
-    <main class="content"></main>
+    <main class="content">
+      <form class="user-data">
+        <label for="firstlastName" class="label-desc"> Carholder Name </label>
+        <br />
+        <input
+          type="text"
+          class="number-name"
+          name="firstlastName"
+          id="firstlastName"
+          placeholder="e.g. Oskar Kuchta"
+        />
+        <label for="cardNumber" class="label-desc">Card Number</label>
+        <input
+          type="text"
+          class="number-name"
+          name="cardNumber"
+          id="cardNumber"
+          placeholder="e.g. 0123 4567 8900 0000"
+        />
+        <div class="exp-date-cvc">
+        <label for="exp-date" class="exp-date label-desc">Exp. Date (MM/YY)</label>
+        <label for="cvc" class="cvc label-desc">CVC</label>
+      </div>
+      <div class="exp-cvc-inputs">
+        <input type="text" name="exp-date"
+      </div>
+      </form>
+    </main>
     <!-- 0000 0000 0000 0000 Jane Appleseed 00/00 000 Cardholder Name e.g. Jane
     Appleseed Card Number e.g. 1234 5678 9123 0000 Exp. Date (MM/YY) MM YY CVC
     e.g. 123 Confirm Thank you! We've added your card details Continue -->

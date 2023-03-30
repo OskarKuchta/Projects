@@ -11,7 +11,7 @@ $btn: hsl(278, 68%, 11%);
   box-sizing: border-box;
 }
 body {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 header {
   background-image: url(./images/bg-main-mobile.png);
@@ -20,67 +20,104 @@ header {
   height: 60vw;
   position: relative;
 }
-.first-photo, .second-photo {
-    width: 70vw;
-    color: $cardText;
+.first-photo,
+.second-photo {
+  width: 70vw;
+  color: $cardText;
 }
-.image-back, .image-front {
-    width: 100%;
-    height: 100%;
+.image-back,
+.image-front {
+  width: 100%;
+  height: 100%;
 }
 .first-photo {
-    position: absolute;
-    top: 10vw;
-    left: 22vw;
+  position: absolute;
+  top: 10vw;
+  left: 22vw;
 }
 .second-photo {
-    position: absolute;
-    top: 31vw;
-    left: 7vw;
+  position: absolute;
+  top: 31vw;
+  left: 7vw;
 }
 .first-circle {
-    position: absolute;
-    width: 7vw;
-    height: 7vw;
-    top: 5vw;
-    left: 5vw;
-    display: inline-block;
-    background-color: $bg;
-    border-radius: 50%;
+  position: absolute;
+  width: 7vw;
+  height: 7vw;
+  top: 5vw;
+  left: 5vw;
+  display: inline-block;
+  background-color: $bg;
+  border-radius: 50%;
 }
 .second-circle {
-    position: absolute;
-    top: 7vw;
-    left: 15vw;
-    width: 3vw;
-    height: 3vw;
-    border: 2px solid $bg;
-    border-radius: 50%;
+  position: absolute;
+  top: 7vw;
+  left: 15vw;
+  width: 3vw;
+  height: 3vw;
+  border: 2px solid $bg;
+  border-radius: 50%;
 }
 
 .card-number {
-    position: absolute;
-    top: 20vw;
-    left: 5vw;
-    font-size: clamp(0.8rem, 5vw, 4rem);
-    letter-spacing: 0.7vw;
+  position: absolute;
+  top: 20vw;
+  left: 5vw;
+  font-size: clamp(0.8rem, 5vw, 4rem);
+  letter-spacing: 0.7vw;
 }
-.card-owner, .card-expdate {
-    position: absolute;
-    top: 30vw;
-    left: 5vw;
-    font-size: clamp(0.6rem, 2.3vw, 2rem);
-    letter-spacing: 0.3vw;
-    font-weight: 600;
+.card-owner,
+.card-expdate {
+  position: absolute;
+  top: 30vw;
+  left: 5vw;
+  font-size: clamp(0.6rem, 2.3vw, 2rem);
+  letter-spacing: 0.3vw;
+  font-weight: 600;
 }
 .card-expdate {
-    left: 55vw;
+  left: 55vw;
 }
 .card-cvc {
-    position: absolute;
-    top: 17vw;
-    right: 10vw;
-    font-size: clamp(0.6rem, 2.8vw, 2rem);
-    letter-spacing: 0.3vw;
+  position: absolute;
+  top: 17vw;
+  right: 10vw;
+  font-size: clamp(0.6rem, 2.8vw, 2rem);
+  letter-spacing: 0.3vw;
+  font-weight: 600;
+}
+.user-data {
+  width: 85vw;
+  margin: 15vw auto 0 auto;
+}
+.number-name {
+    width: 100%;
+    height: 7.5vw;
+    border-radius: 5px;
+    margin-top: 1vw;
+    border: 1px solid #9d19af3a;
+    margin-bottom: 3vw;
+}
+.number-name::placeholder {
+    font-size: clamp(0.6rem, 2.8vw, 3rem);
+    padding: 20px;
+    color: #9d19af92;
     font-weight: 600;
+}
+.label-desc {
+    color: $inputText;
+    font-weight: 600;
+    font-size: clamp(0.6rem, 2.8vw, 3rem);
+    letter-spacing: 0.2vw;
+    text-transform: uppercase;
+}
+.exp-date-cvc {
+    display: flex;
+}
+.exp-date {
+    flex: 55%;
+}
+.cvc { 
+    flex: 45%;
 }
