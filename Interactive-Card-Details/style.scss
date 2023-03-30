@@ -115,9 +115,10 @@ header {
 .exp-date-cvc {
     display: flex;
 }
-.exp-date {
-    flex: 55%;
+.card-data {
+    width: 40%;
+    margin-right: 1vw;
 }
-.cvc { 
-    flex: 45%;
+.exp-date-div {
+    width: 70%;
 }
