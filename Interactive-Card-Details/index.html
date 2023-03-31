@@ -29,8 +29,8 @@
           <p class="first-circle"></p>
           <p class="second-circle"></p>
           <p class="card-number" id="numbers-top">0000 0000 0000 0000</p>
-          <p class="card-owner">OSKAR KUCHTA</p>
-          <p class="card-expdate">00/00</p>
+          <p class="card-owner" id="owner">OSKAR KUCHTA</p>
+          <p class="card-expdate" id="card-expires">00/00</p>
         </div>
       </div>
     </header>
@@ -55,36 +55,35 @@
         />
         <div class="exp-date-cvc">
           <div class="exp-date-div">
-            <label for="exp-date" class="exp-date label-desc"
+            <label for="exp-month" class="exp-date label-desc"
               >Exp. Date (MM/YY)</label
             ><br />
             <input
-              type="text"
-              pattern="\d*"
-              maxlength="2"
-              name="exp-date"
-              id="exp-date"
+              type="number"
+              min="0"
+              onkeypress="return event.keyCode === 8 || event.charCode >= 48 && event.charCode <= 57"
+              name="exp-month"
+              id="exp-month"
               class="card-data number-name"
               placeholder="MM"
             />
             <input
-              type="text"
-              pattern="\d*"
-              maxlength="2"
-              name="exp-date"
-              id="exp-date"
+              type="number"
+              min="0"
+              name="exp-year"
+              id="exp-year"
               class="card-data number-name"
               placeholder="YY"
             />
           </div>
           <div class="cvc-div">
-            <label for="cvc" class="cvc label-desc">CVC</label>
+            <label for="cvc-num" class="cvc label-desc">CVC</label>
             <input
-              type="text"
-              pattern="\d*"
-              maxlength="3"
-              name="exp-date"
-              id="exp-date"
+              type="number"
+              min="0"
+              onkeypress="return event.keyCode === 8 || event.charCode >= 48 && event.charCode <= 57"
+              name="cvc-num"
+              id="cvc-num"
               class="cvc-number number-name"
               placeholder="e.g.123"
             />
