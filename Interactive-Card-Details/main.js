@@ -15,20 +15,15 @@ ownerInput.addEventListener("input", () => {
 });
 cardNumberInput.addEventListener("input", () => {
     let splitNumber = cardNumberInput.value;
-    cardNumber.innerHTML = ([...splitNumber].map((d, i) => (i) % 4 == 0 ? ' ' + d : d).join('').trim()).slice(0,19);
+    cardNumber.innerHTML = ([...splitNumber].map((d, i) => (i) % 4 == 0 ? ' ' + d : d).join('').trim());
 });
 expMonthInput.addEventListener("input", () => {
-    cardExp.innerHTML = expMonthInput.value.slice(0,2) + " / " + expYearInput.value.slice(0,2);
+    cardExp.innerHTML = expMonthInput.value + " / " + expYearInput.value;
 });
 expYearInput.addEventListener("input", () => {
-    cardExp.innerHTML = expMonthInput.value.slice(0,2) + " / " + expYearInput.value.slice(0,2);
+    cardExp.innerHTML = expMonthInput.value + " / " + expYearInput.value;
 })
 cvcInput.addEventListener("input", () => {
-    if(cvcInput.length < 4){
-        cvcInput.value = showCvc.innerHTML;
-    }
-    else {
-        showCvc.innerHTML = (cvcInput.value).slice(0,3);
-    }
+        showCvc.innerHTML = (cvcInput.value);
 });
-console.log(cardNumber.innerHTML);
+console.log(cvcInput.attributes);

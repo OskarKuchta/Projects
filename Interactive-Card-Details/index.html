@@ -48,6 +48,7 @@
         <label for="cardNumber" class="label-desc">Card Number</label>
         <input
           type="text"
+          maxlength="16"
           class="number-name"
           name="cardNumber"
           id="cardNumber"
@@ -59,8 +60,9 @@
               >Exp. Date (MM/YY)</label
             ><br />
             <input
-              type="number"
+              type="text"
               min="0"
+              maxlength="2"
               onkeypress="return event.keyCode === 8 || event.charCode >= 48 && event.charCode <= 57"
               name="exp-month"
               id="exp-month"
@@ -68,8 +70,9 @@
               placeholder="MM"
             />
             <input
-              type="number"
+              type="text"
               min="0"
+              maxlength="2"
               name="exp-year"
               id="exp-year"
               class="card-data number-name"
@@ -79,8 +82,9 @@
           <div class="cvc-div">
             <label for="cvc-num" class="cvc label-desc">CVC</label>
             <input
-              type="number"
+              type="text"
               min="0"
+              maxlength="3"
               onkeypress="return event.keyCode === 8 || event.charCode >= 48 && event.charCode <= 57"
               name="cvc-num"
               id="cvc-num"
