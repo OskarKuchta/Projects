@@ -18,7 +18,7 @@
             src="./images/bg-card-back.png"
             alt="Back card image"
           />
-          <p class="card-cvc">000</p>
+          <p class="card-cvc" id="show-cvc">000</p>
         </div>
         <div class="second-photo">
           <img
@@ -28,7 +28,7 @@
           />
           <p class="first-circle"></p>
           <p class="second-circle"></p>
-          <p class="card-number">0000 0000 0000 0000</p>
+          <p class="card-number" id="numbers-top">0000 0000 0000 0000</p>
           <p class="card-owner">OSKAR KUCHTA</p>
           <p class="card-expdate">00/00</p>
         </div>
@@ -57,19 +57,23 @@
           <div class="exp-date-div">
             <label for="exp-date" class="exp-date label-desc"
               >Exp. Date (MM/YY)</label
-            ><br>
+            ><br />
             <input
               type="text"
+              pattern="\d*"
+              maxlength="2"
               name="exp-date"
               id="exp-date"
-              class="card-data label-desc number-name"
+              class="card-data number-name"
               placeholder="MM"
             />
             <input
               type="text"
+              pattern="\d*"
+              maxlength="2"
               name="exp-date"
               id="exp-date"
-              class="card-data label-desc number-name"
+              class="card-data number-name"
               placeholder="YY"
             />
           </div>
@@ -77,12 +81,16 @@
             <label for="cvc" class="cvc label-desc">CVC</label>
             <input
               type="text"
+              pattern="\d*"
+              maxlength="3"
               name="exp-date"
               id="exp-date"
-              class="cvc-number number-name" placeholder="e.g.123"
+              class="cvc-number number-name"
+              placeholder="e.g.123"
             />
           </div>
         </div>
+        <button class="submit-btn">Confirm</button>
       </form>
     </main>
     <!-- 0000 0000 0000 0000 Jane Appleseed 00/00 000 Cardholder Name e.g. Jane
