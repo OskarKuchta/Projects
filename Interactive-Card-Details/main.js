@@ -26,4 +26,3 @@ expYearInput.addEventListener("input", () => {
 cvcInput.addEventListener("input", () => {
         showCvc.innerHTML = (cvcInput.value);
 });
-console.log(cvcInput.attributes);

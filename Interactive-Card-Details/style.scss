@@ -26,22 +26,27 @@ header {
   color: $cardText;
 }
 .image-back,
-.image-front {
+.image-front,
+.exp-date-div,
+.submit-btn {
   width: 100%;
   height: 100%;
 }
-.first-photo {
+.abs {
   position: absolute;
+}
+.txt {
+  font-size: clamp(0.6rem, 2.3vw, 2rem);
+}
+.first-photo {
   top: 10vw;
   left: 22vw;
 }
 .second-photo {
-  position: absolute;
   top: 31vw;
   left: 7vw;
 }
 .first-circle {
-  position: absolute;
   width: 7vw;
   height: 7vw;
   top: 5vw;
@@ -51,7 +56,6 @@ header {
   border-radius: 50%;
 }
 .second-circle {
-  position: absolute;
   top: 7vw;
   left: 15vw;
   width: 3vw;
@@ -61,7 +65,6 @@ header {
 }
 
 .card-number {
-  position: absolute;
   top: 20vw;
   left: 5vw;
   font-size: clamp(0.8rem, 5vw, 5rem);
@@ -69,22 +72,19 @@ header {
 }
 .card-owner,
 .card-expdate {
-  position: absolute;
   top: 30vw;
   left: 5vw;
-  font-size: clamp(0.6rem, 2.3vw, 2rem);
-  letter-spacing: 0.3vw;
+  letter-spacing: 0.2vw;
   font-weight: 600;
 }
 .card-expdate {
   left: 55vw;
 }
 .card-cvc {
-  position: absolute;
   top: 17vw;
   right: 10vw;
-  font-size: clamp(0.6rem, 2.8vw, 2rem);
-  letter-spacing: 0.3vw;
+  font-size: clamp(0.6rem, 2.8vw, 3rem);
+  letter-spacing: 0.2vw;
   font-weight: 600;
 }
 .user-data {
@@ -125,17 +125,12 @@ input[type="number"] {
   width: 40%;
   margin-right: 0.5vw;
 }
-.exp-date-div {
-  width: 100%;
-}
 .submit-btn {
-  width: 100%;
   height: 8vw;
   border-radius: 5px;
   border: transparent;
   background-color: $btn;
   color: $cardText;
-  font-size: clamp(0.6rem, 2.8vw, 3rem);
   margin-bottom: 100px;
   cursor: pointer;
 }
