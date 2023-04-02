@@ -15,7 +15,7 @@ ownerInput.addEventListener("input", () => {
 });
 cardNumberInput.addEventListener("input", () => {
     let splitNumber = cardNumberInput.value;
-    cardNumber.innerHTML = ([...splitNumber].map((d, i) => (i) % 4 == 0 ? ' ' + d : d).join('').trim());
+        cardNumber.innerHTML = ([...splitNumber].map((d, i) => (i) % 4 == 0 ? ' ' + d : d).join('').trim());
 });
 expMonthInput.addEventListener("input", () => {
     cardExp.innerHTML = expMonthInput.value + " / " + expYearInput.value;
@@ -24,18 +24,29 @@ expYearInput.addEventListener("input", () => {
     cardExp.innerHTML = expMonthInput.value + " / " + expYearInput.value;
 })
 cvcInput.addEventListener("input", () => {
-    showCvc.innerHTML = (cvcInput.value);
+    showCvc.innerHTML = cvcInput.value;
 });
 submit.addEventListener("click", (event) => {
     event.preventDefault();
+    switchState();
+});
+function switchState() {
     if (submitCard.classList.contains("dis")) {
         submitCard.classList.remove("dis");
         content.classList.add("dis");
         submit.innerHTML = "Continue";
+        cvcInput.value = "";
+        owner.value = "";
+        cardNumberInput.innerHTML = "";
+        expMonthInput.value = "";
+        expYearInput.value = "";
     }
     else {
         submitCard.classList.add("dis");
         content.classList.remove("dis");
         submit.innerHTML = "Confirm";
+        showCvc.innerHTML = "000";
+        cardNumber.innerHTML = "0000 0000 0000 0000";
+        owner.innerHTML = "OSKAR KUCHTA";
     }
-});
+}
