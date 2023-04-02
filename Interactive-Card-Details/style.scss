@@ -27,8 +27,7 @@ header {
 }
 .image-back,
 .image-front,
-.exp-date-div,
-.submit-btn {
+.exp-date-div {
   width: 100%;
   height: 100%;
 }
@@ -126,6 +125,7 @@ input[type="number"] {
   margin-right: 0.5vw;
 }
 .submit-btn {
+  width: 80vw;
   height: 8vw;
   border-radius: 5px;
   border: transparent;
@@ -133,4 +133,27 @@ input[type="number"] {
   color: $cardText;
   margin-bottom: 100px;
   cursor: pointer;
+}
+.submitted {
+  margin: 25vw 0 15vw 0;
+  flex-direction: column;
+  align-items: center;
+}
+.ok-icon {
+  width: 8vw;
+  margin: 4vw;
+}
+.thx {
+  color: $inputText;
+  font-size: clamp(0.8rem, 5vw, 5rem);
+  font-weight: 500;
+  margin-bottom: 2vw;
+}
+.thx-desc {
+  color: rgba(54, 7, 57, 0.486);
+  font-size: clamp(0.7rem, 3vw, 4rem);
+}
+.flex {
+  display: flex;
+  justify-content: center;
 }

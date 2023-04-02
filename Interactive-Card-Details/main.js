@@ -8,7 +8,7 @@ const expMonthInput = document.querySelector("#exp-month");
 const expYearInput = document.querySelector("#exp-year");
 const cvcInput = document.querySelector("#cvc-num");
 const submit = document.querySelector(".submit-btn");
-
+const content = document.querySelector("#content");
 
 ownerInput.addEventListener("input", () => {
     owner.innerHTML = (ownerInput.value).toUpperCase();
@@ -26,3 +26,8 @@ expYearInput.addEventListener("input", () => {
 cvcInput.addEventListener("input", () => {
         showCvc.innerHTML = (cvcInput.value);
 });
+
+submit.addEventListener("click", (event) => {
+    event.preventDefault()
+    content.style.visibility = "hidden";
+})
