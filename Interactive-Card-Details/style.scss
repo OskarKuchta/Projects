@@ -135,7 +135,7 @@ input[type="number"] {
   cursor: pointer;
 }
 .submitted {
-  margin: 25vw 0 15vw 0;
+  margin: 15vw 0 10vw 0;
   flex-direction: column;
   align-items: center;
 }
@@ -156,4 +156,7 @@ input[type="number"] {
 .flex {
   display: flex;
   justify-content: center;
+}
+.dis {
+  display: none
 }

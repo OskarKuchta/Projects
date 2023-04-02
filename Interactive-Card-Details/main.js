@@ -9,7 +9,7 @@ const expYearInput = document.querySelector("#exp-year");
 const cvcInput = document.querySelector("#cvc-num");
 const submit = document.querySelector(".submit-btn");
 const content = document.querySelector("#content");
-
+const submitCard = document.querySelector(".submitted");
 ownerInput.addEventListener("input", () => {
     owner.innerHTML = (ownerInput.value).toUpperCase();
 });
@@ -24,10 +24,18 @@ expYearInput.addEventListener("input", () => {
     cardExp.innerHTML = expMonthInput.value + " / " + expYearInput.value;
 })
 cvcInput.addEventListener("input", () => {
-        showCvc.innerHTML = (cvcInput.value);
+    showCvc.innerHTML = (cvcInput.value);
 });
-
 submit.addEventListener("click", (event) => {
-    event.preventDefault()
-    content.style.visibility = "hidden";
-})
+    event.preventDefault();
+    if (submitCard.classList.contains("dis")) {
+        submitCard.classList.remove("dis");
+        content.classList.add("dis");
+        submit.innerHTML = "Continue";
+    }
+    else {
+        submitCard.classList.add("dis");
+        content.classList.remove("dis");
+        submit.innerHTML = "Confirm";
+    }
+});
