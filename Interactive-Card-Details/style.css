@@ -185,4 +185,17 @@ input[type=number] {
 
 .dis {
   display: none;
+}
+
+.error {
+  font-size: clamp(0.6rem, 2.8vw, 3rem);
+  color: red;
+}
+
+.errorOne,
+.errorTwo,
+.errorThree,
+.errorFour,
+.errorFive {
+  display: none;
 }/*# sourceMappingURL=style.css.map */
