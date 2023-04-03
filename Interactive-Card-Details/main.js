@@ -27,10 +27,12 @@ ownerInput.addEventListener("input", () => {
     }
 });
 cardNumberInput.addEventListener("input", () => {
+    let regex = /[a-zA-z]/g;
     if (cardNumberInput.value == "") {
         errSecond.style.display = "block";
+        errValue.style.display = "none";
     }
-    else if ((cardNumberInput.value).match(/[A-Za-z]/)) {
+    else if(cardNumberInput.value.match(/[a-zA-z]/g)){
         errValue.style.display = "block";
     }
     else {
@@ -77,8 +79,8 @@ function switchState() {
         content.classList.add("dis");
         submit.innerHTML = "Continue";
         cvcInput.value = "";
-        owner.value = "";
-        cardNumberInput.innerHTML = "";
+        ownerInput.value = "";
+        cardNumberInput.value = "";
         expMonthInput.value = "";
         expYearInput.value = "";
     }

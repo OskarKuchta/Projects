@@ -40,7 +40,8 @@
         <br />
         <input
           type="text"
-          onkeydown="return /[a-z]/i.test(event.key)"
+          maxlength="20"
+          onkeydown="return /[a-z ]/i.test(event.key)"
           class="number-name"
           name="firstlastName"
           id="firstlastName"
@@ -50,6 +51,7 @@
         <label for="cardNumber" class="label-desc">Card Number</label>
         <input
           type="text"
+          onkeydown="return /[0-9a-zA-z]/i.test(event.key)"
           maxlength="16"
           class="number-name"
           name="cardNumber"
