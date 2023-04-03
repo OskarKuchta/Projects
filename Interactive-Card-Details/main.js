@@ -22,8 +22,8 @@ ownerInput.addEventListener("input", () => {
         errFirst.style.display = "block";
     }
     else {
-    owner.innerHTML = (ownerInput.value).toUpperCase();
-    errFirst.style.display = "none";
+        owner.innerHTML = (ownerInput.value).toUpperCase();
+        errFirst.style.display = "none";
     }
 });
 cardNumberInput.addEventListener("input", () => {
@@ -32,14 +32,14 @@ cardNumberInput.addEventListener("input", () => {
         errSecond.style.display = "block";
         errValue.style.display = "none";
     }
-    else if(cardNumberInput.value.match(/[a-zA-z]/g)){
+    else if (cardNumberInput.value.match(/[a-zA-z]/g)) {
         errValue.style.display = "block";
     }
     else {
-    let splitNumber = cardNumberInput.value;
-    cardNumber.innerHTML = ([...splitNumber].map((d, i) => (i) % 4 == 0 ? ' ' + d : d).join('').trim());
-    errValue.style.display = "none";
-    errSecond.style.display = "none";
+        let splitNumber = cardNumberInput.value;
+        cardNumber.innerHTML = ([...splitNumber].map((d, i) => (i) % 4 == 0 ? ' ' + d : d).join('').trim());
+        errValue.style.display = "none";
+        errSecond.style.display = "none";
     }
 });
 expMonthInput.addEventListener("input", () => {
@@ -47,8 +47,8 @@ expMonthInput.addEventListener("input", () => {
         errThird.style.display = "inline-block";
     }
     else {
-    cardExp.innerHTML = expMonthInput.value + " / " + expYearInput.value;
-    errThird.style.display = "none";
+        cardExp.innerHTML = expMonthInput.value + " / " + expYearInput.value;
+        errThird.style.display = "none";
     }
 });
 expYearInput.addEventListener("input", () => {
@@ -56,8 +56,8 @@ expYearInput.addEventListener("input", () => {
         errThird.style.display = "inline-block";
     }
     else {
-    cardExp.innerHTML = expMonthInput.value + " / " + expYearInput.value;
-    errThird.style.display = "none";
+        cardExp.innerHTML = expMonthInput.value + " / " + expYearInput.value;
+        errThird.style.display = "none";
     }
 })
 cvcInput.addEventListener("input", () => {
@@ -65,8 +65,8 @@ cvcInput.addEventListener("input", () => {
         errFourth.style.display = "inline-block";
     }
     else {
-    showCvc.innerHTML = cvcInput.value;
-    errFourth.style.display = "none";
+        showCvc.innerHTML = cvcInput.value;
+        errFourth.style.display = "none";
     }
 });
 submit.addEventListener("click", (event) => {
