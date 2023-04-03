@@ -56,7 +56,8 @@
           id="cardNumber"
           placeholder="e.g. 0123 4567 8900 0000"
         />
-        <p class="error errTwo"></p>
+        <p class="error errTwo">Can't be blank</p>
+        <p class="error errValue">Wrong values added</p>
         <div class="exp-date-cvc">
           <div class="exp-date-div">
             <label for="exp-month" class="exp-date label-desc"
@@ -72,7 +73,6 @@
               class="card-data number-name"
               placeholder="MM"
             />
-            <p class="error errThree"></p>
             <input
               type="text"
               min="0"
@@ -82,7 +82,7 @@
               class="card-data number-name"
               placeholder="YY"
             />
-            <p class="error errFour"></p>
+            <p class="error errThree">Can't be blank</p>
           </div>
           <div class="cvc-div">
             <label for="cvc-num" class="cvc label-desc">CVC</label>
@@ -96,7 +96,7 @@
               class="cvc-number number-name"
               placeholder="e.g.123"
             />
-            <p class="error errFive"></p>
+            <p class="error errFour">Can't be blank</p>
           </div>
         </div>
       </form>

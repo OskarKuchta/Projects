@@ -96,7 +96,7 @@ header {
   border-radius: 5px;
   margin-top: 1vw;
   border: 1px solid #9d19af3a;
-  margin-bottom: 3vw;
+  margin-bottom: 2vw;
   cursor: pointer;
 }
 input[type="text"],
@@ -163,11 +163,15 @@ input[type="number"] {
 .error {
   font-size: clamp(0.6rem, 2.8vw, 3rem);
   color: red;
+  margin-bottom: 3vw;
 }
-.errorOne,
-.errorTwo,
-.errorThree,
-.errorFour,
-.errorFive {
+.errThree {
+ margin-left: 25%;
+}
+.errOne,
+.errTwo,
+.errThree,
+.errFour,
+.errValue {
   display: none;
 }
