@@ -1,3 +1,4 @@
+<body style="background-color: aliceblue;">
 <strong>Some project from frontendmentor.io to check knowledge HTML/CSS and learn other ways to do page structures</strong>
 <strong>If you want to see all project live click on this link <a href="https://oska98.ct8.pl/">https://oska98.ct8.pl</a> , choose folder, click code folder and enjoy with access to mini projects :D</strong>
 <hr>
@@ -29,6 +30,7 @@
 <br> <br>
 <div style="display: flex;">
 <img src="/Interactive-Card-Details/images/result.png" width="300" height="400" alt="Result photo" />
-<img style="margin-left: 200px;" src="/Interactive-Card-Details/images/result2.png" width="300" height="400" alt="Result photo" />
+<img src="/Interactive-Card-Details/images/result2.png" width="300" height="400" alt="Result photo" />
 </div>
 <br> <br>
+</body>
