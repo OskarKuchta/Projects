@@ -1,4 +1,3 @@
-<body style="background-color:crimson;">
 <strong>Some project from frontendmentor.io to check knowledge HTML/CSS and learn other ways to do page structures</strong>
 <strong>If you want to see all project live click on this link <a href="https://oska98.ct8.pl/">https://oska98.ct8.pl</a> , choose folder, click code folder and enjoy with access to mini projects :D</strong>
 <hr>
@@ -33,4 +32,3 @@
 <img src="/Interactive-Card-Details/images/result2.png" width="300" height="400" alt="Result photo" />
 </div>
 <br> <br>
-</body>
