@@ -83,6 +83,7 @@ function switchState() {
         cardNumberInput.value = "";
         expMonthInput.value = "";
         expYearInput.value = "";
+        errValue.style.display = "none";
     }
     else {
         submitCard.classList.add("dis");
@@ -91,5 +92,6 @@ function switchState() {
         showCvc.innerHTML = "000";
         cardNumber.innerHTML = "0000 0000 0000 0000";
         owner.innerHTML = "OSKAR KUCHTA";
+        cardExp.innerHTML = "00/00";
     }
 }
