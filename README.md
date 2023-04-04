@@ -27,7 +27,7 @@
 <br> <br>
 <strong>#7 Interactive-Card-Details (page done with vw units, not the best way to positioning elements)</strong>
 <br> <br>
-<div style="display: flex">
+<div style="display: flex; justify-content: space-between;">
 <img src="/Interactive-Card-Details/images/result.png" width="300" height="400" alt="Result photo" />
 <img src="/Interactive-Card-Details/images/result2.png" width="300" height="400" alt="Result photo" />
 </div>
