@@ -29,6 +29,6 @@
 <br> <br>
 <div style="display: flex;">
 <img src="/Interactive-Card-Details/images/result.png" width="300" height="400" alt="Result photo" />
-<img style="margin-left: 20%;" src="/Interactive-Card-Details/images/result2.png" width="300" height="400" alt="Result photo" />
+<img style="margin-left: 200px;" src="/Interactive-Card-Details/images/result2.png" width="300" height="400" alt="Result photo" />
 </div>
 <br> <br>
