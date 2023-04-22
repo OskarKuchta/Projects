@@ -21,7 +21,7 @@
 <br> <br>
 <img src="/Interactive-Rating-Component/images/Result1.png" width="300" height="300" alt="Result photo" />
 <br> <br>
-<strong>#6 3 Column Preview</strong>
+<strong>#6 3 Column Preview <a href="https://oska98.ct8.pl/3-column-preview/">https://oska98.ct8.pl/3-column-preview/</a></strong>
 <br> <br>
 <img src="/3-column-preview/images/Results.jpg" width="600" height="300" alt="Result photo" />
 <br> <br>
