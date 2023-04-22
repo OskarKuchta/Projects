@@ -25,10 +25,4 @@
 <br> <br>
 <img src="/3-column-preview/images/Results.jpg" width="600" height="300" alt="Result photo" />
 <br> <br>
-<strong>#7 Interactive-Card-Details (page done with vw units, not the best way to positioning elements)</strong>
-<br> <br>
-<div style="display: flex;">
-<img src="/Interactive-Card-Details/images/result.png" width="300" height="400" alt="Result photo" />
-<img src="/Interactive-Card-Details/images/result2.png" width="300" height="400" alt="Result photo" />
-</div>
 <br> <br>
