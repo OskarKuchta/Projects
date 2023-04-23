@@ -6,7 +6,7 @@ import { Bottom } from "./Bottom";
 
 function App() {
     return (
-        <main>dsaddsaddsaddsaddsad dsaddsaddsa ddsaddsaddsaddsaddsaddsadd saddsaddsaddsaddsaddsaddsaddsaddsaddsad
+        <main>
             <Top />
             <Bottom />
         </main>
