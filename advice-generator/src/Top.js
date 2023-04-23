@@ -1,8 +1,9 @@
 function Top() {
+    const rollAdvice = document.querySelector(".dice-circle");
     return (
         <>
-        <h1 className="advice-number">ADVICE #1</h1>
-        <p className="advice-text">"Take care of your physical health by exercising regularly and eating a balanced diet." "Take care of your physical health by exercising regularly and eating a balanced diet."</p>
+            <h1 className="advice-number">ADVICE #1</h1>
+            <p className="advice-text">"Don't compare yourself to others, focus on being the best version of yourself."</p>
         </>
     )
 }
