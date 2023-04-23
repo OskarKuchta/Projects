@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.rate, .top, .box {
+  width: 90vw;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-image: url(/Social-Proof-Section-Master/images/bg-pattern-top-mobile.svg);
+  padding: 50px 30px 0 30px;
+  font-family: "League Spartan", sans-serif;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.header, .header-desc {
+  margin-bottom: 25px;
+}
+
+.header {
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 2rem;
+}
+
+.header-desc {
+  color: hsl(303, 10%, 53%);
+  font-weight: 500;
+  font-size: 1.05rem;
+}
+
+.rate {
+  margin: auto;
+  min-width: 300px;
+  max-width: 70vw;
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 10px 0;
+}
+
+.rate-text {
+  margin-top: 8px;
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.first-box {
+  margin-top: 25px;
+}
+
+.box {
+  min-width: 300px;
+  max-width: 70vw;
+  margin-bottom: 10px;
+  background-color: hsl(300, 43%, 22%);
+  color: hsl(300, 24%, 96%);
+  border-radius: 10px;
+  padding: 30px 25px;
+  font-size: 1.11rem;
+  text-align: start;
+}
+
+.box-top {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.box-img {
+  width: 50px;
+  border-radius: 25px;
+}
+
+.box-name {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0 0 20px;
+}
+
+.box-header {
+  font-weight: 700;
+}
+
+.box-verify {
+  padding-top: 5px;
+  color: hsl(333, 80%, 67%);
+}
+
+.box-text {
+  font-weight: 400;
+}
+
+@media (min-width: 1000px) {
+  body {
+    background-image: url(/Social-Proof-Section-Master/images/bg-pattern-top-desktop.svg);
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  .top-page {
+    display: flex;
+    justify-content: center;
+    max-width: 80vw;
+    margin-top: 100px;
+    text-align: start;
+  }
+  .header {
+    font-size: 3.5rem;
+    line-height: 2.5rem;
+    max-width: 80%;
+    margin-bottom: 30px;
+  }
+  .header-desc {
+    max-width: 80%;
+  }
+  .rate-section {
+    min-width: 50%;
+  }
+  .rate {
+    display: flex;
+    max-width: 70%;
+    padding: 8px 10px 8px 30px;
+  }
+  .first-rate {
+    margin-left: 30px;
+  }
+  .third-rate {
+    margin-right: 30px;
+  }
+  .star {
+    width: 15px;
+    height: 15px;
+    margin: 7px 3px 0 3px;
+  }
+  .rate-text {
+    margin-left: 20px;
+  }
+  .box {
+    margin: 0;
+    margin-right: 20px;
+  }
+  .boxes {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    max-width: 80vw;
+    height: 300px;
+  }
+  .first-box {
+    height: 80%;
+  }
+  .second-box {
+    height: 80%;
+    margin-top: 20px;
+  }
+  .third-box {
+    height: 80%;
+    margin-top: 40px;
+  }
+}
