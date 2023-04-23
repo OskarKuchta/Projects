@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 body {
   height: 100vh;
   width: 100vw;
@@ -11,15 +17,13 @@ body {
   font-weight: 800;
   font-size: 10px;
   background-color: hsl(218, 23%, 16%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 main {
+  position: relative;
   height: 100%;
   width: 90vw;
-  max-width: 450px;
+  max-width: 400px;
   background-color: hsl(217, 19%, 24%);
   margin: -150px auto;
   padding: 1.5rem;
@@ -37,7 +41,21 @@ main {
 .advice-text {
   font-size: 1.4rem;
   color: hsl(193, 38%, 86%);
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.divider {
+  width: 270px;
+  margin-bottom: 1.5rem;
+}
+
+.dice-circle {
+  position: absolute;
+  right: 40%;
+  width: 55px;
+  height: 55px;
+  background-color: hsl(150, 100%, 66%);
+  border-radius: 50%;
 }
 
 @media (min-width: 500px) {
