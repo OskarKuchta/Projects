@@ -1,20 +1,30 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 
 export function Bottom() {
     const [data, setData] = useState("");
+    const [numberAdvice, setNumberAdvice] = useState(Math.ceil(Math.random() * 77));
+    const notInitialRender = useRef(false);
+    useEffect(() => {
+        if(notInitialRender.current) {
+        const adviceText = document.querySelector(".advice-text");
+        const value = data[`${numberAdvice}`];
+        adviceText.innerHTML = value;
+        }
+        else {
+            notInitialRender.current = true
+        }
+    }, [data, numberAdvice]);
+
     const rollAdvice = async () => {
         const adviceNumber = document.querySelector(".advice-number");
         const adviceText = document.querySelector(".advice-text");
-        const numberAdvice = Math.floor(Math.random() * 77);
-        const response = await fetch("./advices.json")
-        setData(await response.json());
-        adviceNumber.innerHTML = `ADVICE #${numberAdvice}`;
-        const value = data[`${numberAdvice}`];
-        adviceText.innerHTML = value;
-    }
-    useEffect(() => {
-        rollAdvice()
-    }, [])
+        const newNumberAdvice = Math.ceil(Math.random() * 77);
+        const response = await fetch("./advices.json");
+        const responseData = await response.json();
+        setData(responseData);
+        setNumberAdvice(newNumberAdvice);
+        adviceNumber.innerHTML = `ADVICE #${newNumberAdvice}`;
+    };
     return (<>
         <svg className="divider" height="16" xmlns="http://www.w3.org/2000/svg"><g fill="none" fillRule="evenodd"><path fill="#4F5D74" d="M0 8h122v1H0zM173 8h122v1H173z" /><g transform="translate(138)" fill="#CEE3E9"><rect width="6" height="16" rx="3" /><rect x="14" width="6" height="16" rx="3" /></g></g></svg>
         <div className="dice-circle flex" onClick={rollAdvice}>
