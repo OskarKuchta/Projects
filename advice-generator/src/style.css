@@ -58,6 +58,15 @@ main {
   border-radius: 50%;
 }
 
+.dice {
+  cursor: pointer;
+}
+
+.rotate {
+  transition: 0.55s transform;
+  transform: rotate(450deg);
+}
+
 @media (min-width: 500px) {
   main {
     margin: 0;
