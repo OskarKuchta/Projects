@@ -25,4 +25,9 @@
 <br> <br>
 <img src="/3-column-preview/images/Results.jpg" width="600" height="300" alt="Result photo" />
 <br> <br>
+<strong>#7 Advice generator</strong>
+<div style="display: flex;">
+<img src="/advice-generator/public/result1.jpg" width="300" height="400" alt="Result photo" />
+<img src="/advice-generator/public/result2.jpg" width="300" height="400" alt="Result photo" />
+</div>
 <br> <br>
