@@ -27,7 +27,7 @@
 <br> <br>
 <strong>#7 Advice generator</strong>
 <div style="display: flex;">
-<img src="/advice-generator/public/result1.jpg" width="300" height="300" alt="Result photo" />
-<img src="/advice-generator/public/result2.jpg" width="300" height="300" alt="Result photo" />
+<img src="/advice-generator/public/result1.jpg" width="400" height="300" alt="Result photo" />
+<img src="/advice-generator/public/result2.jpg" width="400" height="300" alt="Result photo" />
 </div>
 <br> <br>
