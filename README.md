@@ -13,7 +13,7 @@
 <br> <br>
 <img src="/Social-Proof-Section-Master/images/Result.png" width="600" height="300" alt="Result photo" />
 <br> <br>
-<strong>#4 Stats preview <a href=""></a></strong>
+<strong>#4 Stats preview <a href="https://oska98.ct8.pl/Stats-preview/code/">https://oska98.ct8.pl/Stats-preview/code/</a></strong>
 <br> <br>
 <img src="/Stats-preview/image/Result.png" width="600" height="300" alt="Result photo" />
 <br> <br>
@@ -25,7 +25,7 @@
 <br> <br>
 <img src="/3-column-preview/images/Results.jpg" width="600" height="300" alt="Result photo" />
 <br> <br>
-<strong>#7 Advice generator</strong>
+<strong>#7 Advice generator <a href=""></a></strong>
 <div style="display: flex;">
 <img src="/advice-generator/public/result1.jpg" width="400" height="300" alt="Result photo" />
 <img src="/advice-generator/public/result2.jpg" width="400" height="300" alt="Result photo" />
