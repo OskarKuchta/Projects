@@ -27,7 +27,6 @@ export function Bottom() {
       }, [addClass]);
     const rollAdvice = async () => {
         const adviceNumber = document.querySelector(".advice-number");
-        const adviceText = document.querySelector(".advice-text");
         const newNumberAdvice = Math.ceil(Math.random() * 77);
         const response = await fetch("./advices.json");
         const responseData = await response.json();
