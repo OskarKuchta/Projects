@@ -25,7 +25,7 @@
 <br> <br>
 <img src="/3-column-preview/images/Results.jpg" width="600" height="300" alt="Result photo" />
 <br> <br>
-<strong>#7 Advice generator <a href=""></a></strong>
+<strong>#7 Advice generator <a href="https://oska98.ct8.pl/advice-generator/">https://oska98.ct8.pl/advice-generator/</a></strong>
 <div style="display: flex;">
 <img src="/advice-generator/public/result1.jpg" width="400" height="300" alt="Result photo" />
 <img src="/advice-generator/public/result2.jpg" width="400" height="300" alt="Result photo" />
