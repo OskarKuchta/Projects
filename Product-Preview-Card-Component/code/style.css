@@ -1,133 +1,144 @@
 :root {
-   --Fraunces: "Fraunces", serif; /* 500, 700 */
-   --Montesrerat: "Montserrat", sans-serif; /* 700 */
-   --Pricebtn: hsl(158, 36%, 37%);
-   --Body: hsl(30, 38%, 92%);
-   --Header: hsl(212, 21%, 14%);
-   --Paragraph: hsl(228, 12%, 48%);
-   --bgtext: hsl(0, 0%, 100%);
-
+  --Fraunces: "Fraunces", serif; /* 500, 700 */
+  --Montesrerat: "Montserrat", sans-serif; /* 700 */
+  --Pricebtn: hsl(158, 36%, 37%);
+  --Body: hsl(30, 38%, 92%);
+  --Header: hsl(212, 21%, 14%);
+  --Paragraph: hsl(228, 12%, 48%);
+  --bgtext: hsl(0, 0%, 100%);
 }
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-body, html  {
-    background-color: var(--Body);
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    height: 100%;
-    width: 100%;
-    font-family: var(--Montesrerat);
-    font-size: 10px;
+body,
+html {
+  background-color: var(--Body);
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  height: 100vh;
+  width: 100%;
+  font-family: var(--Montesrerat);
+  font-size: 10px;
 }
 .card {
-    display: flex;
-    flex-direction: column;
-    max-width: 350px;
-    background-color: var(--bgtext);
-    border-radius: 10px;
-    margin: 20px;
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  background-color: var(--bgtext);
+  border-radius: 10px;
+  margin: 20px;
 }
-.card-image--desktop, .card-image--mobile {
-    width: 100%;
-    height:100%;
-    border-radius: 10px 10px 0 0;
+.card-image--desktop,
+.card-image--mobile {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px 10px 0 0;
 }
 .card-image--desktop {
-    display: none;
+  display: none;
 }
 .card-right {
-    padding: 15px 25px;
+  padding: 15px 25px;
 }
 .right-top {
-    color: var(--Paragraph);
-    font-weight: 500;
-    letter-spacing: 5px;
-    margin-bottom: 5px;
+  color: var(--Paragraph);
+  font-weight: 500;
+  letter-spacing: 5px;
+  margin-bottom: 5px;
 }
 .right-header {
-    color: var(--Header);
-    font-weight: 700;
-    font-family: var(--Fraunces);
-    font-size: 3.2rem;
-    line-height: 90%;
-    margin-bottom: 15px;
+  color: var(--Header);
+  font-weight: 700;
+  font-family: var(--Fraunces);
+  font-size: 3.2rem;
+  line-height: 90%;
+  margin-bottom: 15px;
 }
 .right-desc {
-    color: var(--Paragraph);
-    font-weight: 500;
-    margin-bottom: 15px;
+  color: var(--Paragraph);
+  font-weight: 500;
+  margin-bottom: 15px;
 }
 .right-price {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
 }
 .price-new {
-    font-family: var(--Fraunces);
-    font-size: 2.2rem;
-    font-weight: 700;
-    color: var(--Pricebtn);
+  font-family: var(--Fraunces);
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--Pricebtn);
 }
 .price-old {
-    color: var(--Paragraph);
-    text-decoration: line-through 0.01rem;
-    margin-left: 15px;
+  color: var(--Paragraph);
+  text-decoration: line-through 0.01rem;
+  margin-left: 15px;
 }
 .btn-cart {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    border: transparent;
-    padding : 8px;
-    background-color: var(--Pricebtn);
-    border-radius: 5px;
-    cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border: transparent;
+  padding: 8px;
+  background-color: var(--Pricebtn);
+  border-radius: 5px;
+  cursor: pointer;
 }
 .btn-img {
-    padding-right: 10px;
+  padding-right: 10px;
 }
 .btn-text {
-    font-size: 1.2rem;
-    color: var(--bgtext);
-    font-weight: 700;
-    font-family: var(--Montesrerat);
+  font-size: 1.2rem;
+  color: var(--bgtext);
+  font-weight: 700;
+  font-family: var(--Montesrerat);
 }
-@media (min-width: 700px) {
-    body {
-        align-items: center;
-    }
+
+@media (min-width: 769px) {
+  body {
+    align-items: center;
+  }
+  .card {
+    flex-direction: row;
+    max-width: 580px;
+    margin: 0;
+  }
+  .card-right {
+    padding: 30px 30px 10px 30px;
+  }
+  .right-top,
+  .right-header,
+  .right-desc,
+  .right-price {
+    margin-bottom: 25px;
+  }
+  .right-desc {
+    font-size: 1.4rem;
+  }
+  .price-new {
+    font-size: 3rem;
+  }
+  .card-image--desktop {
+    width: 290px;
+    height: 390px;
+    display: block;
+    border-radius: 10px 0 0 10px;
+  }
+  .card-image--mobile {
+    display: none;
+  }
+  .btn-cart {
+    padding: 10px;
+  }
+}
+@media (orientation: landscape) {
     .card {
-        flex-direction: row;
-        max-width: 580px;
-    }
-    .card-right {
-        padding: 30px 30px 10px 30px;
-    }
-    .right-top, .right-header, .right-desc, .right-price {
-        margin-bottom: 25px;
-    }
-    .right-desc {
-        font-size: 1.4rem;
-    }
-    .price-new {
-        font-size: 3rem;
-    }
-    .card-image--desktop {
-        width: 290px;
-        height: 390px;
-        display: block;
-        border-radius: 10px 0 0 10px ;
-    }
-    .card-image--mobile {
-        display: none;
-    }
-    .btn-cart {
-        padding: 10px;
+        margin-top: 150px;
     }
 }
