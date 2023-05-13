@@ -20,16 +20,16 @@ export function Bottom() {
     useEffect(() => {
         const rollDice = document.querySelector(".dice");
         if (addClass) {
-          rollDice.classList.add("rotate");
+            rollDice.classList.add("rotate");
         } else {
-          rollDice.classList.remove("rotate");
+            rollDice.classList.remove("rotate");
         }
-      }, [addClass]);
+    }, [addClass]);
     const rollAdvice = async () => {
         const adviceNumber = document.querySelector(".advice-number");
         const newNumberAdvice = Math.ceil(Math.random() * 77);
         const response = await fetch("./advices.json", {
-            method: "POST"
+            method: "GET"
         });
         const responseData = await response.json();
         setData(responseData);
