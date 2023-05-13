@@ -1,54 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Oskar Kuchta">
-    <meta name="keywords" content="rate feedback help">
-    <title>Interactive Rating Component - FrontendMentor.io </title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="icon" sizes="32x32" href="/Interactive-Rating-Component/images/favicon-32x32.png">
-    <link rel="stylesheet" href="/Interactive-Rating-Component/code/style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Oskar Kuchta" />
+    <meta name="keywords" content="rate feedback help" />
+    <title>Interactive Rating Component - FrontendMentor.io</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      sizes="32x32"
+      href="/Interactive-Rating-Component/images/favicon-32x32.png"
+    />
+    <link
+      rel="stylesheet"
+      href="/Interactive-Rating-Component/code/style.css"
+    />
+  </head>
+  <body>
     <main class="card">
-        <div class="start-card" id="first">
-        <img class="star"
-         src="/Interactive-Rating-Component/images/icon-star.svg" 
-         alt="">
-        <br>
-        <h1 class="start-header">How did we do?</h1> 
-        <p class="header-description">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p> 
+      <div class="start-card" id="first">
+        <img
+          class="star"
+          src="/Interactive-Rating-Component/images/icon-star.svg"
+          alt=""
+        />
+        <br />
+        <h1 class="start-header">How did we do?</h1>
+        <p class="header-description">
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
         <div class="options">
-        <input id="firstchoice" class="option" type="button" value="1" onclick="checkFirst()">
-        <input id="secondchoice" class="option" type="button" value="2" onclick="checkSecond()">
-        <input id="thirdchoice" class="option" type="button" value="3" onclick="checkThird()">
-        <input id="fourthchoice" class="option" type="button" value="4" onclick="checkFourth()">
-        <input id="fifthchoice" class="option" type="button" value="5" onclick="checkFifth()">
+          <input id="btn1" class="option" type="button" value="1" />
+          <input id="btn2" class="option" type="button" value="2" />
+          <input id="btn3" class="option" type="button" value="3" />
+          <input id="btn4" class="option" type="button" value="4" />
+          <input id="btn5" class="option" type="button" value="5" />
         </div>
-        <br>
-        <input id="submitBtn" class="start-submit" type="submit" value="SUBMIT" onclick="submitChoice()"> 
-        </div>
-        <div class="submit-card" id="second">
-            <img class="submit-img"
-             src="/Interactive-Rating-Component/images/illustration-thank-you.svg"
-             alt="">
-            <p id="text" class="your-select"></p> 
-            <h2 class="submit-thanks">Thank you!</h2> 
-            <p class="submit-description">We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
-        </div>
+        <br />
+        <input
+          id="submitBtn"
+          class="start-submit"
+          type="submit"
+          value="SUBMIT"
+        />
+      </div>
+      <div class="submit-card" id="second">
+        <img
+          class="submit-img"
+          src="/Interactive-Rating-Component/images/illustration-thank-you.svg"
+          alt=""
+        />
+        <p id="text" class="your-select"></p>
+        <h2 class="submit-thanks">Thank you!</h2>
+        <p class="submit-description">
+          We appreciate you taking the time to give a rating. If you ever need
+          more support, don't hesitate to get in touch!
+        </p>
+        <button class="start-submit" id="back-button">BACK TO RATE</button>
+      </div>
     </main>
     <button class="toggle" id="toggle">
-        <img class="light"
+      <img
+        class="light"
         src="/Interactive-Rating-Component/images/brightness.png"
-        alt="Light mode">
-        <img class="dark"
+        alt="Light mode"
+      />
+      <img
+        class="dark"
         src="/Interactive-Rating-Component/images/moon.png"
-        alt="Dark-mode">
-      </button>
+        alt="Dark-mode"
+      />
+    </button>
     <script src="/Interactive-Rating-Component/code/index.js"></script>
-</body>
+  </body>
 </html>
