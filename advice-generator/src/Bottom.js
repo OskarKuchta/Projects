@@ -29,7 +29,7 @@ export function Bottom() {
         const adviceNumber = document.querySelector(".advice-number");
         const newNumberAdvice = Math.ceil(Math.random() * 77);
         const response = await fetch("./advices.json", {
-            method: "GET"
+            method: "POST"
         });
         const responseData = await response.json();
         setData(responseData);

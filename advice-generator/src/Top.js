@@ -1,5 +1,4 @@
 function Top() {
-    const rollAdvice = document.querySelector(".dice-circle");
     return (
         <>
             <h1 className="advice-number">ADVICE #1</h1>

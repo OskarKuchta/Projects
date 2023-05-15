@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/advice-generator/static/css/main.237c74b6.css",
+    "main.js": "/advice-generator/static/js/main.0016136f.js",
+    "index.html": "/advice-generator/index.html",
+    "main.237c74b6.css.map": "/advice-generator/static/css/main.237c74b6.css.map",
+    "main.0016136f.js.map": "/advice-generator/static/js/main.0016136f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.237c74b6.css",
+    "static/js/main.0016136f.js"
+  ]
+}
