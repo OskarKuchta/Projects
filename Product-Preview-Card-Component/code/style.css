@@ -13,7 +13,6 @@
   margin: 0;
   box-sizing: border-box;
 }
-body,
 html {
   background-color: var(--Body);
   display: flex;
@@ -138,7 +137,8 @@ html {
   }
 }
 @media (orientation: landscape) {
-    .card {
-        margin-top: 150px;
-    }
+  .card {
+    margin-top: 150px;
+    margin-bottom: 150px;
+  }
 }
