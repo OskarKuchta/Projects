@@ -46,3 +46,8 @@ body {
     justify-content: center;
   }
 }
+@media (orientation: landscape) {
+  .card {
+    margin-top: 150px;
+  }
+}
