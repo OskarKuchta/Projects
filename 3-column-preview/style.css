@@ -110,3 +110,8 @@ body {
     padding: 40px;
   }
 }
+@media (orientation: landscape){
+  body {
+    margin-bottom: 50px;
+  }
+}
