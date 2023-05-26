@@ -5,7 +5,7 @@
 }
 
 body {
-  height: 100vh;
+  min-height: 100vh;
   color: hsl(218, 44%, 22%);
   font-family: "Outfit", sans-serif;
   font-size: 15px;
@@ -45,9 +45,7 @@ body {
   body {
     justify-content: center;
   }
-}
-@media (orientation: landscape) {
   .card {
-    margin-top: 150px;
+    margin-bottom: 30px;
   }
 }
