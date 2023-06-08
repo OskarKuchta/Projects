@@ -1,14 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./style.css";
-import Top from "./Top";
-import { Bottom } from "./Bottom";
+import Card from "./Card";
 
 function App() {
     return (
         <main>
-            <Top />
-            <Bottom />
+            <Card />
         </main>
     )
 }
