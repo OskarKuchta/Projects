@@ -7,9 +7,10 @@ let btn4 = document.getElementById("btn4");
 let btn5 = document.getElementById("btn5");
 let submitBtn = document.getElementById("submitBtn");
 let text = document.getElementById("text");
-let darkBtn = document.querySelector(".toggle");
-let light = document.querySelector(".light");
-let dark = document.querySelector(".dark");
+let toogleBtn = document.querySelector(".toggle");
+let body = document.querySelector("#body");
+let lightIcon = document.querySelector(".light");
+let darkIcon = document.querySelector(".dark");
 let btnValue;
 let backBtn = document.querySelector("#back-button");
 const checkBtn = (btn) => {
@@ -35,22 +36,21 @@ submitBtn.addEventListener("click", () => {
 backBtn.addEventListener("click", () => {
   location.reload();
 })
-
-lightMode = () => {
-  if (dark.style.display === "none") {
-    light.style.display = "none";
-    dark.style.display = "inline-block";
+const toogleTheme = () => {
+  lightIcon.style.display = lightIcon.style.display === 'block' ? 'none' : 'block';
+  darkIcon.style.display = darkIcon.style.display === 'none' ? 'block' : 'none';
+  if (lightIcon.style.display == "block") {
+    body.style.backgroundColor = "hsl(216, 12%, 8%)";
+    toogleBtn.style.backgroundColor = "aliceblue";
+    lightIcon.style.display = "block";
+    darkIcon.style.display = "none";
   }
-  else {
-    dark.style.display = "none";
-    light.style.display = "inline-block";
-  }
-  document.body.classList.toggle("lightmode");
-  if (dark.style.display === "inline-block") {
-    darkBtn.style.backgroundColor = "rgba(195, 206, 193, 0.693)";
-  }
-  else {
-    darkBtn.style.backgroundColor = "#3d4847";
+  if (darkIcon.style.display == "block") {
+    body.style.backgroundColor = "aliceblue";
+    toogleBtn.style.backgroundColor = "hsl(216, 12%, 8%)";
+    lightIcon.style.display = "none";
+    darkIcon.style.display = "block";
   }
 }
-darkBtn.addEventListener("click", lightMode);
+
+toogleBtn.addEventListener('click', toogleTheme);

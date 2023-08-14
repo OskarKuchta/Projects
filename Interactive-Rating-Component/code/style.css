@@ -1,156 +1,160 @@
 :root {
-    --font: "Overpass", sans-serif;
-    --fontw1: 400;
-    --fontw2: 700;
-    --submitandhover: hsl(25, 97%, 53%);
-    ---header: hsl(0, 0%, 100%);
-    --paragraph: hsl(217, 12%, 63%);
-    --optionsbg:  hsla(216, 12%, 54%,0.2);
-    --cardbg: hsl(213, 19%, 18%);
-    --bodybg: hsl(216, 12%, 8%);
-    --optionshover: hsl(218, 18%, 64%);
-    --lightColor: rgba(195, 206, 193, 0.693);
+  --font: "Overpass", sans-serif;
+  --fontw1: 400;
+  --fontw2: 700;
+  --submitandhover: hsl(25, 97%, 53%);
+  ---header: hsl(0, 0%, 100%);
+  --paragraph: hsl(217, 12%, 63%);
+  --optionsbg: hsla(216, 12%, 54%, 0.2);
+  --cardbg: hsl(213, 19%, 18%);
+  --bodybg: hsl(216, 12%, 8%);
+  --optionshover: hsl(218, 18%, 64%);
+  --lightColor: rgba(195, 206, 193, 0.693);
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    -webkit-tap-highlight-color: transparent;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
 }
 html {
-    font-size: 15px;
-    font-family: var(--font);
+  font-size: 15px;
+  font-family: var(--font);
 }
 body {
-    width: 100%;
-    height: 100vh;
-    background-color: var(--bodybg);
-    display: flex;
-    justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--bodybg);
+  display: flex;
+  justify-content: center;
 }
 .card {
-    position: relative;
+  position: relative;
 }
 .lightmode {
-    background-color: rgba(195, 206, 193, 0.693);
+  background-color: aliceblue;
 }
+
 .toggle {
-    background-color: rgba(195, 206, 193, 0.693);
-    display: flex;
-    position: absolute;
-    top: 5vh;
-    right: 10vw;
-    padding: 5px;
-    border-radius: 21px;
-    border: 1px solid black;
-    cursor: pointer;
+  background-color: aliceblue;
+  display: flex;
+  position: absolute;
+  top: 5vh;
+  right: 10vw;
+  padding: 5px;
+  border-radius: 21px;
+  border: 1px solid black;
+  cursor: pointer;
 }
+
 .dark {
-    display: none;
+  display: none;
+  filter: invert(100%);
 }
-.start-card, .submit-card {
-    margin-top: 100px;
-    max-width: 85vw;
-    height: auto;
-    background-color: var(--cardbg);
-    padding: 20px;
-    border-radius: 20px;
+.start-card,
+.submit-card {
+  margin-top: 100px;
+  max-width: 85vw;
+  height: auto;
+  background-color: var(--cardbg);
+  padding: 20px;
+  border-radius: 20px;
 }
 .star {
-    padding: 10px;
-    border-radius: 20px;
-    background-color: var(--optionsbg);
-    width: 35px;
-    margin-bottom: 12px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: var(--optionsbg);
+  width: 35px;
+  margin-bottom: 12px;
 }
 .start-header {
-    color: var(---header);
-    font-size: 1.7rem;
-    font-weight: var(--fontw1);
-    margin-bottom: 12px;
+  color: var(---header);
+  font-size: 1.7rem;
+  font-weight: var(--fontw1);
+  margin-bottom: 12px;
 }
 .header-description {
-    color: var(--paragraph);
-    font-size: 1.06rem;
-    margin-bottom: 20px;
+  color: var(--paragraph);
+  font-size: 1.06rem;
+  margin-bottom: 20px;
 }
 .options {
-    display: flex;
-    justify-content: space-between;
-    width: 95%;
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
 }
 .option {
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    border: transparent;
-    background-color: var(--optionsbg);
-    color: var(--paragraph);
-    cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  border: transparent;
+  background-color: var(--optionsbg);
+  color: var(--paragraph);
+  cursor: pointer;
 }
 .option:focus {
-    background-color: var(--optionshover);
-    color: var(---header);
+  background-color: var(--optionshover);
+  color: var(---header);
 }
 .option:hover {
-    color: var(---header);
-    background-color: var(--submitandhover);
+  color: var(---header);
+  background-color: var(--submitandhover);
 }
 .start-submit {
-    width: 98%;
-    border-radius: 20px;
-    padding: 10px;
-    background-color: var(--submitandhover);
-    border: transparent;
-    color: var(---header);
-    cursor: pointer;
+  width: 98%;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: var(--submitandhover);
+  border: transparent;
+  color: var(---header);
+  cursor: pointer;
 }
 .start-submit:hover {
-    background-color: var(---header);
-    color: var(--submitandhover);
+  background-color: var(---header);
+  color: var(--submitandhover);
 }
 .submit-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .submit-img {
-    width: 50%;
-    margin: 20px 0 30px 20%;
+  width: 50%;
+  margin: 20px 0 30px 20%;
 }
 .your-select {
-    background-color: var(--optionsbg);
-    padding: 3px 15px;
-    border-radius: 10px;
-    color: var(--submitandhover);
-    margin-bottom: 25px;
-    text-align: center;
-    width: 80%;
-    margin-left: 10%;
-
+  background-color: var(--optionsbg);
+  padding: 3px 15px;
+  border-radius: 10px;
+  color: var(--submitandhover);
+  margin-bottom: 25px;
+  text-align: center;
+  width: 80%;
+  margin-left: 10%;
 }
 .submit-thanks {
-    color: var(---header);
-    font-weight: var(--fontw2);
-    margin-bottom: 15px;
-    font-size: 1.7rem;
-    text-align: center;
+  color: var(---header);
+  font-weight: var(--fontw2);
+  margin-bottom: 15px;
+  font-size: 1.7rem;
+  text-align: center;
 }
 .submit-description {
-    color: var(--paragraph);
-    text-align: center;
-    margin-bottom: 20px;
+  color: var(--paragraph);
+  text-align: center;
+  margin-bottom: 20px;
 }
 .submit-card {
-    display: none;
+  display: none;
 }
-@media(min-width: 500px) {
-    body {
-        align-items: center;
-    }
-    .start-card, .submit-card {
-        margin-top: 0;
-        max-width: 350px;
-    }
+@media (min-width: 500px) {
+  body {
+    align-items: center;
+  }
+  .start-card,
+  .submit-card {
+    margin-top: 0;
+    max-width: 350px;
+  }
 }
